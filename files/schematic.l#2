@@ -12474,6 +12474,23 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="-8.5" y1="-4" x2="-8.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="-8.5" y1="-1" x2="-7" y2="-1" width="0.127" layer="21"/>
 </package>
+<package name="MAX5556_SOC8">
+</package>
+<package name="PUSBMXX4-TL">
+<smd name="P$1" x="-0.75" y="0.5" dx="0.5" dy="0.2" layer="1" roundness="50"/>
+<smd name="P$2" x="-0.75" y="0" dx="0.5" dy="0.2" layer="1" roundness="50"/>
+<smd name="P$3" x="-0.75" y="-0.5" dx="0.5" dy="0.2" layer="1" roundness="50"/>
+<smd name="P$4" x="0.75" y="-0.5" dx="0.5" dy="0.2" layer="1" roundness="50"/>
+<smd name="P$5" x="0.75" y="0" dx="0.5" dy="0.2" layer="1" roundness="50"/>
+<smd name="P$6" x="0.75" y="0.5" dx="0.5" dy="0.2" layer="1" roundness="50"/>
+<wire x1="-0.75" y1="0.75" x2="0.75" y2="0.75" width="0.05" layer="21"/>
+<wire x1="0.75" y1="0.75" x2="0.75" y2="-0.75" width="0.05" layer="21"/>
+<wire x1="0.75" y1="-0.75" x2="-0.75" y2="-0.75" width="0.05" layer="21"/>
+<wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.05" layer="21"/>
+<text x="-0.45" y="0.85" size="0.254" layer="21">&gt;NAME</text>
+<text x="-0.5" y="-1.1" size="0.254" layer="21">&gt;VALUE</text>
+<smd name="P$7" x="0" y="0" dx="0.4" dy="1.1" layer="1" roundness="100"/>
+</package>
 </packages>
 <symbols>
 <symbol name="3V3">
@@ -13508,6 +13525,23 @@ Source: VISHAY wscwsn.pdf</description>
 <pin name="GND" x="15.24" y="-2.54" length="middle" rot="R180"/>
 <pin name="VDD" x="15.24" y="0" length="middle" rot="R180"/>
 <pin name="OUTL" x="15.24" y="2.54" length="middle" rot="R180"/>
+<text x="5.08" y="7.62" size="1.016" layer="94">&gt;NAME</text>
+<text x="5.08" y="-10.16" size="1.016" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="PUSBMXX4-TL">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="2.54" length="middle"/>
+<pin name="2" x="-10.16" y="0" length="middle"/>
+<pin name="3" x="-10.16" y="-2.54" length="middle"/>
+<pin name="4" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="5" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="6" x="10.16" y="2.54" length="middle" rot="R180"/>
+<text x="5.08" y="5.08" size="1.016" layer="94">&gt;NAME</text>
+<text x="5.08" y="-7.62" size="1.016" layer="94">&gt;VALUE</text>
+<pin name="7" x="0" y="10.16" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -19398,6 +19432,26 @@ Source: www.haloelectronics.com .. e-ultra.pdf</description>
 <connect gate="G$1" pin="D_P" pad="USB_P"/>
 <connect gate="G$1" pin="GND" pad="USB_GND"/>
 <connect gate="G$1" pin="VCC" pad="USBV"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PUSBMXX4-TL">
+<gates>
+<gate name="G$1" symbol="PUSBMXX4-TL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PUSBMXX4-TL">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
 </connects>
 <technologies>
 <technology name=""/>

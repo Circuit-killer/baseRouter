@@ -34164,6 +34164,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <wire x1="115.57" y1="59.69" x2="115.57" y2="3.81" width="1.9304" layer="94" style="shortdash"/>
 <text x="45.72" y="64.77" size="5.08" layer="94">Battery Charger</text>
 <text x="175.26" y="162.56" size="5.08" layer="94">Atmega32u4</text>
+<text x="24.13" y="308.61" size="2.54" layer="94">WPS Button</text>
 </plain>
 <instances>
 <instance part="GND19" gate="1" x="66.04" y="12.7"/>

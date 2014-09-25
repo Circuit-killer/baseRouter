@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -33896,14 +33896,14 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.127" drill="0.127">
-<clearance class="0" value="0.127"/>
+<class number="0" name="default" width="0.2032" drill="0.3048">
+<clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="power" width="0.4064" drill="1.1">
-<clearance class="1" value="0.2"/>
+<class number="1" name="power" width="0.2032" drill="0.3048">
+<clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="gnd" width="0.2" drill="0.3048">
-<clearance class="2" value="0.2"/>
+<class number="2" name="gnd" width="0.2032" drill="0.3048">
+<clearance class="2" value="0.1524"/>
 </class>
 </classes>
 <parts>
@@ -34017,7 +34017,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <sheets>
 <sheet>
 <plain>
-<text x="549.91" y="12.7" size="5.08" layer="94" font="vector" ratio="15">POE</text>
+<text x="422.91" y="10.16" size="5.08" layer="94" font="vector" ratio="15">POE</text>
 <text x="90.17" y="290.83" size="5.08" layer="94" font="vector" ratio="15">SKW71 MODULE</text>
 <text x="166.37" y="96.52" size="2.54" layer="94" rot="R180">5VDC - 40VDC</text>
 <text x="16.51" y="139.7" size="1.778" layer="94">PD 8V - 12V</text>

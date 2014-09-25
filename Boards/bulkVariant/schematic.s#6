@@ -35034,6 +35034,17 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <wire x1="266.7" y1="361.95" x2="266.7" y2="358.14" width="0.1524" layer="91"/>
 <label x="266.7" y="358.14" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R24" gate="G$1" pin="1"/>
+<junction x="345.44" y="233.68"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<junction x="361.95" y="234.95"/>
+<wire x1="345.44" y1="233.68" x2="361.95" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="361.95" y1="233.68" x2="361.95" y2="234.95" width="0.1524" layer="91"/>
+<wire x1="361.95" y1="233.68" x2="367.03" y2="233.68" width="0.1524" layer="91"/>
+<junction x="361.95" y="233.68"/>
+<label x="367.03" y="233.68" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="VDD" class="0">
 <segment>
@@ -36886,22 +36897,17 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <junction x="378.46" y="246.38"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="RIGHT"/>
-<junction x="378.46" y="243.84"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="LEFT"/>
-<junction x="378.46" y="241.3"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="OUTL"/>
 <junction x="335.28" y="246.38"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<junction x="345.44" y="243.84"/>
+<wire x1="335.28" y1="246.38" x2="345.44" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="246.38" x2="345.44" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<junction x="349.25" y="243.84"/>
+<wire x1="345.44" y1="243.84" x2="349.25" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -36920,6 +36926,13 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <segment>
 <pinref part="U$9" gate="G$1" pin="OUTR"/>
 <junction x="335.28" y="238.76"/>
+<wire x1="335.28" y1="238.76" x2="335.28" y2="227.33" width="0.1524" layer="91"/>
+<pinref part="R28" gate="G$1" pin="2"/>
+<junction x="345.44" y="227.33"/>
+<wire x1="335.28" y1="227.33" x2="345.44" y2="227.33" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<junction x="349.25" y="227.33"/>
+<wire x1="345.44" y1="227.33" x2="349.25" y2="227.33" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -36946,64 +36959,33 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <junction x="304.8" y="246.38"/>
 </segment>
 </net>
-<net name="N$55" class="0">
-<segment>
-<pinref part="R24" gate="G$1" pin="2"/>
-<junction x="345.44" y="243.84"/>
-</segment>
-</net>
-<net name="N$56" class="0">
-<segment>
-<pinref part="R23" gate="G$1" pin="1"/>
-<junction x="349.25" y="243.84"/>
-</segment>
-</net>
-<net name="N$57" class="0">
-<segment>
-<pinref part="R23" gate="G$1" pin="2"/>
-<junction x="359.41" y="243.84"/>
-</segment>
-</net>
 <net name="N$58" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <junction x="361.95" y="242.57"/>
-</segment>
-</net>
-<net name="N$59" class="0">
-<segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<junction x="361.95" y="234.95"/>
-</segment>
-</net>
-<net name="N$60" class="0">
-<segment>
-<pinref part="R24" gate="G$1" pin="1"/>
-<junction x="345.44" y="233.68"/>
-</segment>
-</net>
-<net name="N$61" class="0">
-<segment>
-<pinref part="R25" gate="G$1" pin="1"/>
-<junction x="349.25" y="227.33"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<junction x="359.41" y="243.84"/>
+<pinref part="JP1" gate="G$1" pin="RIGHT"/>
+<junction x="378.46" y="243.84"/>
+<wire x1="359.41" y1="243.84" x2="361.95" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="361.95" y1="243.84" x2="378.46" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="361.95" y1="242.57" x2="361.95" y2="243.84" width="0.1524" layer="91"/>
+<junction x="361.95" y="243.84"/>
 </segment>
 </net>
 <net name="N$62" class="0">
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
 <junction x="359.41" y="227.33"/>
-</segment>
-</net>
-<net name="N$63" class="0">
-<segment>
 <pinref part="C25" gate="G$1" pin="2"/>
 <junction x="361.95" y="226.06"/>
-</segment>
-</net>
-<net name="N$64" class="0">
-<segment>
-<pinref part="R28" gate="G$1" pin="2"/>
-<junction x="345.44" y="227.33"/>
+<wire x1="359.41" y1="227.33" x2="361.95" y2="227.33" width="0.1524" layer="91"/>
+<wire x1="361.95" y1="227.33" x2="361.95" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="LEFT"/>
+<junction x="378.46" y="241.3"/>
+<wire x1="361.95" y1="227.33" x2="378.46" y2="227.33" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="227.33" x2="378.46" y2="241.3" width="0.1524" layer="91"/>
+<junction x="361.95" y="227.33"/>
 </segment>
 </net>
 <net name="N$65" class="0">

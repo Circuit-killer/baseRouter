@@ -34337,6 +34337,12 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="SW1" library="BaseApp" deviceset="TACTILE-2PIN" device="'"/>
 <part name="U$9" library="schematic" deviceset="MAX5556ESA+" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="AUDIO-JACK" device="SMD2"/>
+<part name="R23" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
+<part name="R24" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP"/>
+<part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
+<part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
+<part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP"/>
 </parts>
 <sheets>
 <sheet>
@@ -34589,8 +34595,14 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <instance part="R14" gate="D" x="502.92" y="86.36" rot="R90"/>
 <instance part="U$5" gate="G$1" x="392.43" y="369.57" rot="R180"/>
 <instance part="SW1" gate="G$1" x="34.29" y="317.5"/>
-<instance part="U$9" gate="G$1" x="318.77" y="245.11"/>
-<instance part="JP1" gate="G$1" x="384.81" y="243.84" rot="MR0"/>
+<instance part="U$9" gate="G$1" x="320.04" y="243.84"/>
+<instance part="JP1" gate="G$1" x="383.54" y="243.84" rot="MR0"/>
+<instance part="R23" gate="G$1" x="354.33" y="243.84"/>
+<instance part="R24" gate="G$1" x="345.44" y="238.76" rot="R90"/>
+<instance part="C2" gate="G$1" x="361.95" y="240.03" rot="R180"/>
+<instance part="R25" gate="G$1" x="354.33" y="227.33"/>
+<instance part="R28" gate="G$1" x="345.44" y="222.25" rot="R90"/>
+<instance part="C25" gate="G$1" x="361.95" y="223.52" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -36871,67 +36883,139 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <net name="N$1" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="SLEEVE"/>
-<junction x="379.73" y="246.38"/>
+<junction x="378.46" y="246.38"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="RIGHT"/>
-<junction x="379.73" y="243.84"/>
+<junction x="378.46" y="243.84"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="LEFT"/>
-<junction x="379.73" y="241.3"/>
+<junction x="378.46" y="241.3"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="OUTL"/>
-<junction x="334.01" y="247.65"/>
+<junction x="335.28" y="246.38"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="VDD"/>
-<junction x="334.01" y="245.11"/>
+<junction x="335.28" y="243.84"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="GND"/>
-<junction x="334.01" y="242.57"/>
+<junction x="335.28" y="241.3"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="OUTR"/>
-<junction x="334.01" y="240.03"/>
+<junction x="335.28" y="238.76"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="MCLK"/>
-<junction x="303.53" y="240.03"/>
+<junction x="304.8" y="238.76"/>
 </segment>
 </net>
 <net name="N$49" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="LRCLK"/>
-<junction x="303.53" y="242.57"/>
+<junction x="304.8" y="241.3"/>
 </segment>
 </net>
 <net name="N$51" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="SCLK"/>
-<junction x="303.53" y="245.11"/>
+<junction x="304.8" y="243.84"/>
 </segment>
 </net>
 <net name="N$53" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="SDATA"/>
-<junction x="303.53" y="247.65"/>
+<junction x="304.8" y="246.38"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<pinref part="R24" gate="G$1" pin="2"/>
+<junction x="345.44" y="243.84"/>
+</segment>
+</net>
+<net name="N$56" class="0">
+<segment>
+<pinref part="R23" gate="G$1" pin="1"/>
+<junction x="349.25" y="243.84"/>
+</segment>
+</net>
+<net name="N$57" class="0">
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<junction x="359.41" y="243.84"/>
+</segment>
+</net>
+<net name="N$58" class="0">
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<junction x="361.95" y="242.57"/>
+</segment>
+</net>
+<net name="N$59" class="0">
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<junction x="361.95" y="234.95"/>
+</segment>
+</net>
+<net name="N$60" class="0">
+<segment>
+<pinref part="R24" gate="G$1" pin="1"/>
+<junction x="345.44" y="233.68"/>
+</segment>
+</net>
+<net name="N$61" class="0">
+<segment>
+<pinref part="R25" gate="G$1" pin="1"/>
+<junction x="349.25" y="227.33"/>
+</segment>
+</net>
+<net name="N$62" class="0">
+<segment>
+<pinref part="R25" gate="G$1" pin="2"/>
+<junction x="359.41" y="227.33"/>
+</segment>
+</net>
+<net name="N$63" class="0">
+<segment>
+<pinref part="C25" gate="G$1" pin="2"/>
+<junction x="361.95" y="226.06"/>
+</segment>
+</net>
+<net name="N$64" class="0">
+<segment>
+<pinref part="R28" gate="G$1" pin="2"/>
+<junction x="345.44" y="227.33"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<pinref part="R28" gate="G$1" pin="1"/>
+<junction x="345.44" y="217.17"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="C25" gate="G$1" pin="1"/>
+<junction x="361.95" y="218.44"/>
 </segment>
 </net>
 </nets>

@@ -36868,6 +36868,72 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <wire x1="302.26" y1="369.57" x2="274.32" y2="369.57" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="SLEEVE"/>
+<junction x="379.73" y="246.38"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="RIGHT"/>
+<junction x="379.73" y="243.84"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="LEFT"/>
+<junction x="379.73" y="241.3"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="OUTL"/>
+<junction x="334.01" y="247.65"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="VDD"/>
+<junction x="334.01" y="245.11"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="GND"/>
+<junction x="334.01" y="242.57"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="OUTR"/>
+<junction x="334.01" y="240.03"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="MCLK"/>
+<junction x="303.53" y="240.03"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="LRCLK"/>
+<junction x="303.53" y="242.57"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="SCLK"/>
+<junction x="303.53" y="245.11"/>
+</segment>
+</net>
+<net name="N$53" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="SDATA"/>
+<junction x="303.53" y="247.65"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

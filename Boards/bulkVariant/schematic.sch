@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -29207,6 +29207,26 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <rectangle x1="1.8542" y1="-1.4478" x2="2.8702" y2="-1.0922" layer="27"/>
 <rectangle x1="1.8542" y1="-2.7178" x2="2.8702" y2="-2.3622" layer="27"/>
 </package>
+<package name="USB_A_FEMALE_STACKED_2">
+<hole x="6.57" y="-2.84" drill="2.3"/>
+<hole x="6.57" y="2.84" drill="2.3"/>
+<hole x="-6.57" y="2.84" drill="2.3"/>
+<hole x="-6.57" y="-2.84" drill="2.3"/>
+<wire x1="-6.6" y1="4.4" x2="6.6" y2="4.4" width="0.127" layer="21"/>
+<wire x1="6.6" y1="1.54" x2="6.6" y2="-1.54" width="0.127" layer="21"/>
+<wire x1="-6.6" y1="1.54" x2="-6.6" y2="-1.54" width="0.127" layer="21"/>
+<wire x1="-5.28" y1="-2.86" x2="5.28" y2="-2.86" width="0.127" layer="21"/>
+<pad name="P$1" x="-3.5" y="0" drill="0.92"/>
+<pad name="P$2" x="-1" y="0" drill="0.92"/>
+<pad name="P$3" x="1" y="0" drill="0.92"/>
+<pad name="P$4" x="3.5" y="0" drill="0.92"/>
+<pad name="P$5" x="-3.5" y="2.62" drill="0.92"/>
+<pad name="P$6" x="-1" y="2.62" drill="0.92"/>
+<pad name="P$7" x="1" y="2.62" drill="0.92"/>
+<pad name="P$8" x="3.5" y="2.62" drill="0.92"/>
+<text x="-2.86" y="4.84" size="1.27" layer="21">&gt;NAME</text>
+<text x="9.46" y="-3.08" size="1.27" layer="21" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CPOL-US">
@@ -29345,6 +29365,26 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <pin name="OUTL" x="15.24" y="2.54" length="middle" rot="R180"/>
 <text x="5.08" y="7.62" size="1.016" layer="94">&gt;NAME</text>
 <text x="5.08" y="-10.16" size="1.016" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="AU-Y1008">
+<wire x1="-5.08" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-15.24" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<pin name="VCC1" x="-10.16" y="12.7" length="middle"/>
+<pin name="D1_P" x="-10.16" y="10.16" length="middle"/>
+<pin name="D1_N" x="-10.16" y="7.62" length="middle"/>
+<pin name="GND1" x="-10.16" y="5.08" length="middle"/>
+<pin name="VCC2" x="-10.16" y="-5.08" length="middle"/>
+<pin name="D2_P" x="-10.16" y="-7.62" length="middle"/>
+<pin name="D2_N" x="-10.16" y="-10.16" length="middle"/>
+<pin name="GND2" x="-10.16" y="-12.7" length="middle"/>
+<text x="2.54" y="17.78" size="1.778" layer="94">&gt;NAME</text>
+<text x="2.54" y="-17.78" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -30769,6 +30809,28 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <connect gate="G$1" pin="SCLK" pad="2"/>
 <connect gate="G$1" pin="SDATA" pad="1"/>
 <connect gate="G$1" pin="VDD" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB_FEMALE_A_STACKED_2">
+<gates>
+<gate name="G$1" symbol="AU-Y1008" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB_A_FEMALE_STACKED_2">
+<connects>
+<connect gate="G$1" pin="D1_N" pad="P$3"/>
+<connect gate="G$1" pin="D1_P" pad="P$2"/>
+<connect gate="G$1" pin="D2_N" pad="P$7"/>
+<connect gate="G$1" pin="D2_P" pad="P$6"/>
+<connect gate="G$1" pin="GND1" pad="P$1"/>
+<connect gate="G$1" pin="GND2" pad="P$5"/>
+<connect gate="G$1" pin="VCC1" pad="P$4"/>
+<connect gate="G$1" pin="VCC2" pad="P$8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -34343,6 +34405,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
 <part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
 <part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP"/>
+<part name="U$11" library="schematic" deviceset="USB_FEMALE_A_STACKED_2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -34603,6 +34666,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <instance part="R25" gate="G$1" x="339.09" y="243.84"/>
 <instance part="R28" gate="G$1" x="330.2" y="238.76" rot="R90"/>
 <instance part="C25" gate="G$1" x="346.71" y="240.03" rot="R180"/>
+<instance part="U$11" gate="G$1" x="248.92" y="218.44"/>
 </instances>
 <busses>
 </busses>

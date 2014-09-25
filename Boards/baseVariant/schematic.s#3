@@ -34344,7 +34344,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <instance part="R14" gate="C" x="496.57" y="104.14" rot="R180"/>
 <instance part="R14" gate="D" x="502.92" y="86.36" rot="R90"/>
 <instance part="U$5" gate="G$1" x="392.43" y="369.57" rot="R180"/>
-<instance part="S1" gate="1" x="29.21" y="312.42" rot="R270"/>
+<instance part="S1" gate="1" x="33.02" y="312.42" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -34860,6 +34860,13 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <junction x="327.66" y="379.73"/>
 <wire x1="327.66" y1="379.73" x2="359.41" y2="379.73" width="0.1524" layer="91"/>
 <label x="359.41" y="379.73" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="S1" gate="1" pin="P"/>
+<junction x="27.94" y="312.42"/>
+<wire x1="27.94" y1="312.42" x2="24.13" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="24.13" y1="312.42" x2="24.13" y2="314.96" width="0.1524" layer="91"/>
+<label x="24.13" y="314.96" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_D_N" class="0">
@@ -36088,6 +36095,13 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <junction x="86.36" y="345.44"/>
 <wire x1="86.36" y1="345.44" x2="78.74" y2="345.44" width="0.1524" layer="91"/>
 <label x="78.74" y="345.44" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="S1" gate="1" pin="S"/>
+<junction x="38.1" y="312.42"/>
+<wire x1="38.1" y1="312.42" x2="41.91" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="41.91" y1="312.42" x2="41.91" y2="314.96" width="0.1524" layer="91"/>
+<label x="41.91" y="314.96" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SYSTEM_LED" class="0">

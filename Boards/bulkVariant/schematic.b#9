@@ -4573,12 +4573,16 @@ design rules under a new name.</description>
 <signal name="I2S_WS">
 <contactref element="U$19" pad="5"/>
 <contactref element="JP3" pad="33"/>
+<contactref element="U$9" pad="3"/>
 <wire x1="28.9004" y1="39.5752" x2="49.53" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="0.9144" y1="-10.5664" x2="28.9004" y2="39.5752" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2S_MCK">
 <contactref element="U$19" pad="9"/>
 <contactref element="JP3" pad="35"/>
+<contactref element="U$9" pad="4"/>
 <wire x1="26.3604" y1="39.5752" x2="52.07" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="0.9144" y1="-11.8364" x2="26.3604" y2="39.5752" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="V-" pad="3"/>
@@ -4902,12 +4906,16 @@ design rules under a new name.</description>
 <signal name="I2S_SD">
 <contactref element="U$19" pad="11"/>
 <contactref element="JP3" pad="36"/>
+<contactref element="U$9" pad="1"/>
 <wire x1="25.0904" y1="39.5752" x2="52.07" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="0.9144" y1="-8.0264" x2="25.0904" y2="39.5752" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2S_CK">
 <contactref element="U$19" pad="13"/>
 <contactref element="JP3" pad="37"/>
+<contactref element="U$9" pad="2"/>
 <wire x1="23.8204" y1="39.5752" x2="54.61" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="0.9144" y1="-9.2964" x2="23.8204" y2="39.5752" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="JUMPSTART">
 <contactref element="U$19" pad="25"/>
@@ -5125,18 +5133,6 @@ design rules under a new name.</description>
 <contactref element="R25" pad="1"/>
 <wire x1="0.874" y1="-34.5948" x2="2.174" y2="-36.8808" width="0" layer="19" extent="1-1"/>
 <wire x1="6.4008" y1="-11.8364" x2="0.874" y2="-34.5948" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$35">
-<contactref element="U$9" pad="4"/>
-</signal>
-<signal name="N$49">
-<contactref element="U$9" pad="3"/>
-</signal>
-<signal name="N$51">
-<contactref element="U$9" pad="2"/>
-</signal>
-<signal name="N$53">
-<contactref element="U$9" pad="1"/>
 </signal>
 <signal name="N$58">
 <contactref element="C2" pad="2"/>

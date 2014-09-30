@@ -4058,7 +4058,7 @@ design rules under a new name.</description>
 <element name="U$19" library="BaseApp" package="SKW71-SMT" value="SKW71-" x="31.4404" y="39.5752"/>
 <element name="C62" library="BaseApp" package="C0603" value="0.1u" x="33.6952" y="44.19" rot="R270"/>
 <element name="C89" library="BaseApp" package="C0603" value="1uf" x="43" y="63" rot="R270"/>
-<element name="V-" library="BaseApp" package="TL3340AF160QG" value="SPST-3PIN-RTANGLEP02" x="61.0744" y="-26.51" rot="MR0"/>
+<element name="V-" library="BaseApp" package="TL3340AF160QG" value="SPST-3PIN-RTANGLEP02" x="61.2268" y="-29.2532" rot="MR0"/>
 <element name="R65" library="BaseApp" package="R0603" value="" x="20.572" y="34.1404" rot="MR0"/>
 <element name="CN1" library="adafruit" package="DCJACK_2MM_PTH" value="" x="85.09" y="-3.7592"/>
 <element name="IC1" library="national-semiconductor" package="TO263-5" value="LM2596S" x="70.38" y="45.5508" rot="R90">
@@ -4132,7 +4132,7 @@ design rules under a new name.</description>
 <element name="X1" library="adafruit" package="U.FL" value="" x="13.716" y="21.6408" rot="R90"/>
 <element name="R14" library="SparkFun-Passives" package="0603-ARV" value="330" x="41.91" y="8.9916" rot="R90"/>
 <element name="U$5" library="BaseApp" package="BU-SMA-H" value="RF-SMA" x="6.4008" y="5.9436" rot="R270"/>
-<element name="SW1" library="BaseApp" package="TACTILE-2PIN-RTANGLE" value="" x="19.05" y="-11.7348"/>
+<element name="SW1" library="BaseApp" package="TACTILE-2PIN-RTANGLE" value="" x="41.3004" y="1.0668" rot="MR0"/>
 <element name="U$9" library="schematic" package="SO-8" value="MAX5556ESA+" x="3.6576" y="-9.2964"/>
 <element name="JP1" library="SparkFun-Connectors" package="AUDIO-JACK-3.5MM-SMD" value="" x="15.3924" y="0.3048" rot="R90">
 <attribute name="PROD_ID" value="CONN-10353" x="15.3924" y="0.3048" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4396,10 +4396,10 @@ design rules under a new name.</description>
 <wire x1="11.9252" y1="18.1116" x2="12.3904" y2="39.5752" width="0" layer="19" extent="1-1"/>
 <wire x1="9.6252" y1="16.6116" x2="11.9252" y2="18.1116" width="0" layer="19" extent="1-1"/>
 <wire x1="11.1252" y1="15.1116" x2="9.6252" y2="16.6116" width="0" layer="19" extent="1-1"/>
-<wire x1="16.95" y1="-11.7348" x2="11.1252" y2="15.1116" width="0" layer="19" extent="1-1"/>
-<wire x1="6.4008" y1="-9.2964" x2="16.95" y2="-11.7348" width="0" layer="19" extent="1-1"/>
-<wire x1="41.285" y1="7.7916" x2="16.95" y2="-11.7348" width="0" layer="19" extent="1-1"/>
-<wire x1="61.0744" y1="-24.31" x2="41.285" y2="7.7916" width="0" layer="19" extent="1-16"/>
+<wire x1="43.4004" y1="1.0668" x2="11.1252" y2="15.1116" width="0" layer="19" extent="1-1"/>
+<wire x1="6.4008" y1="-9.2964" x2="43.4004" y2="1.0668" width="0" layer="19" extent="1-1"/>
+<wire x1="41.285" y1="7.7916" x2="43.4004" y2="1.0668" width="0" layer="19" extent="1-1"/>
+<wire x1="61.2268" y1="-27.0532" x2="41.285" y2="7.7916" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USB_D_N">
 <contactref element="JP4" pad="D-"/>
@@ -4609,8 +4609,8 @@ design rules under a new name.</description>
 <contactref element="V-" pad="3"/>
 <contactref element="R65" pad="1"/>
 <contactref element="V-" pad="1"/>
-<wire x1="59.8744" y1="-24.31" x2="62.2744" y2="-24.31" width="0" layer="19" extent="16-16"/>
-<wire x1="21.422" y1="34.1404" x2="59.8744" y2="-24.31" width="0" layer="19" extent="16-16"/>
+<wire x1="60.0268" y1="-27.0532" x2="62.4268" y2="-27.0532" width="0" layer="19" extent="16-16"/>
+<wire x1="21.422" y1="34.1404" x2="60.0268" y2="-27.0532" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VBUS">
 <contactref element="C29" pad="1"/>
@@ -4941,7 +4941,7 @@ design rules under a new name.</description>
 <signal name="JUMPSTART">
 <contactref element="U$19" pad="25"/>
 <contactref element="SW1" pad="2"/>
-<wire x1="21.15" y1="-11.7348" x2="16.2004" y2="39.5752" width="0" layer="19" extent="1-1"/>
+<wire x1="39.2004" y1="1.0668" x2="16.2004" y2="39.5752" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SYSTEM_LED">
 <contactref element="U$19" pad="19"/>

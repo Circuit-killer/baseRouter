@@ -4058,7 +4058,7 @@ design rules under a new name.</description>
 <element name="U$19" library="BaseApp" package="SKW71-SMT" value="SKW71-" x="31.4404" y="39.5752"/>
 <element name="C62" library="BaseApp" package="C0603" value="0.1u" x="33.6952" y="44.19" rot="R270"/>
 <element name="C89" library="BaseApp" package="C0603" value="1uf" x="43" y="63" rot="R270"/>
-<element name="V-" library="BaseApp" package="TL3340AF160QG" value="SPST-3PIN-RTANGLEP02" x="61.2268" y="-40.988" rot="MR0"/>
+<element name="V-" library="BaseApp" package="TL3340AF160QG" value="SPST-3PIN-RTANGLEP02" x="61.0744" y="-26.51" rot="MR0"/>
 <element name="R65" library="BaseApp" package="R0603" value="" x="20.572" y="34.1404" rot="MR0"/>
 <element name="CN1" library="adafruit" package="DCJACK_2MM_PTH" value="" x="85.09" y="-3.7592"/>
 <element name="IC1" library="national-semiconductor" package="TO263-5" value="LM2596S" x="70.38" y="45.5508" rot="R90">
@@ -4105,7 +4105,7 @@ design rules under a new name.</description>
 <element name="LED6" library="led" package="LED3MM" value="" x="69" y="66.5"/>
 <element name="U1" library="SparkFun-Connectors" package="MAGJACK-POE" value="MAGJACK-POE" x="52.9308" y="9.0424" rot="R180"/>
 <element name="U2" library="SparkFun-Connectors" package="MAGJACK-POE" value="MAGJACK-POE" x="29.988" y="9.0424" rot="R180"/>
-<element name="USB1" library="schematic" package="USB_A_VERTICAL_PTH" value="USB_SHIELDUSB_A_VERTICAL" x="57.954" y="-45.5864"/>
+<element name="USB1" library="schematic" package="USB_A_VERTICAL_PTH" value="USB_SHIELDUSB_A_VERTICAL" x="57.8016" y="-31.1084"/>
 <element name="U$2" library="SparkFun-DigitalIC" package="QFN-44" value="ATMEGA32U4QFN" x="51.7908" y="24.5012" rot="R90"/>
 <element name="R4" library="SparkFun" package="0402-RES" value="22" x="57.4256" y="26.384" rot="R90"/>
 <element name="R5" library="SparkFun" package="0402-RES" value="22" x="56.1584" y="26.384" rot="R90"/>
@@ -4116,7 +4116,7 @@ design rules under a new name.</description>
 <element name="C22" library="SparkFun" package="0402-CAP" value="" x="59.7096" y="31.9912" rot="R90"/>
 <element name="C23" library="SparkFun" package="0402-CAP" value="1uF" x="59.2232" y="26.384" rot="R90"/>
 <element name="R9" library="SparkFun" package="0402-RES" value="1k" x="52.3816" y="31.9852" rot="R270"/>
-<element name="U$3" library="schematic" package="PUSBMXX4-TL" value="PUSBMXX4-TL" x="56.9788" y="13.76" rot="MR180"/>
+<element name="U$3" library="schematic" package="PUSBMXX4-TL" value="PUSBMXX4-TL" x="63.0748" y="-15.196" rot="MR180"/>
 <element name="L3" library="SparkFun-Passives" package="C0402" value="" x="56.6888" y="21.7264" rot="MR270"/>
 <element name="C24" library="SparkFun-Capacitors" package="0402-CAP" value="0.1uF" x="45.4672" y="20.6408" rot="MR90"/>
 <element name="J1" library="Sensor Mesh" package="2X3-NS" value="AVR_SPI_PRG_6NS" x="65.7616" y="29.96"/>
@@ -4294,7 +4294,7 @@ design rules under a new name.</description>
 <wire x1="62.2484" y1="19.7272" x2="61.7432" y2="21.7508" width="0" layer="19" extent="1-1"/>
 <wire x1="63.6388" y1="19.7272" x2="62.2484" y2="19.7272" width="0" layer="19" extent="1-1"/>
 <wire x1="59.2232" y1="25.734" x2="59.7432" y2="23.2508" width="0" layer="19" extent="1-1"/>
-<wire x1="61.404" y1="-26.8364" x2="62.2484" y2="19.7272" width="0" layer="19" extent="1-1"/>
+<wire x1="61.2516" y1="-12.3584" x2="62.2484" y2="19.7272" width="0" layer="19" extent="1-1"/>
 <wire x1="51.2908" y1="21.1012" x2="55.1908" y2="23.5012" width="0" layer="19" extent="1-1"/>
 <wire x1="48.3908" y1="22.5012" x2="51.2908" y2="21.1012" width="0" layer="19" extent="1-1"/>
 <wire x1="46.3024" y1="24.02" x2="48.3908" y2="22.5012" width="0" layer="19" extent="1-1"/>
@@ -4309,8 +4309,8 @@ design rules under a new name.</description>
 <wire x1="78.0156" y1="14.4884" x2="73.6572" y2="15.1088" width="0" layer="19" extent="1-1"/>
 <wire x1="77.866" y1="16.9248" x2="78.0156" y2="14.4884" width="0" layer="19" extent="1-1"/>
 <wire x1="74.2704" y1="21.7484" x2="68.9248" y2="19.982" width="0" layer="19" extent="1-1"/>
-<wire x1="60.6758" y1="12.2124" x2="61.404" y2="-26.8364" width="0" layer="19" extent="1-1"/>
-<wire x1="56.9788" y1="13.76" x2="60.6758" y2="12.2124" width="0" layer="19" extent="16-16"/>
+<wire x1="60.6758" y1="12.2124" x2="61.2516" y2="-12.3584" width="0" layer="19" extent="1-1"/>
+<wire x1="63.0748" y1="-15.196" x2="60.6758" y2="12.2124" width="0" layer="19" extent="16-16"/>
 <wire x1="77.5508" y1="-24.9852" x2="69.4652" y2="13.1252" width="0" layer="19" extent="1-1"/>
 <wire x1="76.8432" y1="-22.6608" x2="77.5508" y2="-24.9852" width="0" layer="19" extent="1-16"/>
 <wire x1="80.2508" y1="-27.6352" x2="76.8432" y2="-22.6608" width="0" layer="19" extent="1-16"/>
@@ -4322,7 +4322,7 @@ design rules under a new name.</description>
 <wire x1="54.25" y1="43.23" x2="57.15" y2="49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="49.69" y1="43.92" x2="54.25" y2="43.23" width="0" layer="19" extent="16-16"/>
 <wire x1="87" y1="19.222" x2="77.866" y2="16.9248" width="0" layer="19" extent="1-1"/>
-<wire x1="45.1858" y1="12.2124" x2="56.9788" y2="13.76" width="0" layer="19" extent="16-16"/>
+<wire x1="45.1858" y1="12.2124" x2="63.0748" y2="-15.196" width="0" layer="19" extent="16-16"/>
 <wire x1="42.535" y1="9.3916" x2="45.1858" y2="12.2124" width="0" layer="19" extent="1-1"/>
 <wire x1="42.535" y1="8.5916" x2="42.535" y2="9.3916" width="0" layer="19" extent="1-1"/>
 <wire x1="37.733" y1="12.2124" x2="45.1858" y2="12.2124" width="0" layer="19" extent="1-1"/>
@@ -4399,7 +4399,7 @@ design rules under a new name.</description>
 <wire x1="16.95" y1="-11.7348" x2="11.1252" y2="15.1116" width="0" layer="19" extent="1-1"/>
 <wire x1="6.4008" y1="-9.2964" x2="16.95" y2="-11.7348" width="0" layer="19" extent="1-1"/>
 <wire x1="41.285" y1="7.7916" x2="16.95" y2="-11.7348" width="0" layer="19" extent="1-1"/>
-<wire x1="61.2268" y1="-38.788" x2="41.285" y2="7.7916" width="0" layer="19" extent="1-16"/>
+<wire x1="61.0744" y1="-24.31" x2="41.285" y2="7.7916" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USB_D_N">
 <contactref element="JP4" pad="D-"/>
@@ -4575,15 +4575,15 @@ design rules under a new name.</description>
 <contactref element="U$19" pad="15"/>
 <contactref element="USB1" pad="3"/>
 <contactref element="U$3" pad="P$2"/>
-<wire x1="56.2288" y1="13.76" x2="61.404" y2="-28.8364" width="0" layer="19" extent="16-16"/>
-<wire x1="22.5504" y1="39.5752" x2="56.2288" y2="13.76" width="0" layer="19" extent="1-16"/>
+<wire x1="62.3248" y1="-15.196" x2="61.2516" y2="-14.3584" width="0" layer="19" extent="16-16"/>
+<wire x1="22.5504" y1="39.5752" x2="62.3248" y2="-15.196" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USBUPD1_N">
 <contactref element="U$19" pad="17"/>
 <contactref element="USB1" pad="2"/>
 <contactref element="U$3" pad="P$1"/>
-<wire x1="56.2288" y1="13.26" x2="61.404" y2="-30.8364" width="0" layer="19" extent="16-16"/>
-<wire x1="21.2804" y1="39.5752" x2="56.2288" y2="13.26" width="0" layer="19" extent="1-16"/>
+<wire x1="62.3248" y1="-15.696" x2="61.2516" y2="-16.3584" width="0" layer="19" extent="16-16"/>
+<wire x1="21.2804" y1="39.5752" x2="62.3248" y2="-15.696" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="LAN_RX+">
 <contactref element="U$19" pad="12"/>
@@ -4609,8 +4609,8 @@ design rules under a new name.</description>
 <contactref element="V-" pad="3"/>
 <contactref element="R65" pad="1"/>
 <contactref element="V-" pad="1"/>
-<wire x1="60.0268" y1="-38.788" x2="62.4268" y2="-38.788" width="0" layer="19" extent="16-16"/>
-<wire x1="21.422" y1="34.1404" x2="60.0268" y2="-38.788" width="0" layer="19" extent="16-16"/>
+<wire x1="59.8744" y1="-24.31" x2="62.2744" y2="-24.31" width="0" layer="19" extent="16-16"/>
+<wire x1="21.422" y1="34.1404" x2="59.8744" y2="-24.31" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VBUS">
 <contactref element="C29" pad="1"/>
@@ -4806,8 +4806,8 @@ design rules under a new name.</description>
 <wire x1="68.1248" y1="19.982" x2="68.0108" y2="22.8594" width="0" layer="19" extent="1-1"/>
 <wire x1="67.7248" y1="19.982" x2="68.1248" y2="19.982" width="0" layer="19" extent="1-1"/>
 <wire x1="69.7248" y1="19.982" x2="68.1248" y2="19.982" width="0" layer="19" extent="1-1"/>
-<wire x1="57.7288" y1="13.26" x2="45.4672" y2="19.9908" width="0" layer="19" extent="16-16"/>
-<wire x1="61.404" y1="-32.8364" x2="57.7288" y2="13.26" width="0" layer="19" extent="16-16"/>
+<wire x1="63.8248" y1="-15.696" x2="45.4672" y2="19.9908" width="0" layer="19" extent="16-16"/>
+<wire x1="61.2516" y1="-18.3584" x2="63.8248" y2="-15.696" width="0" layer="19" extent="16-16"/>
 <wire x1="11.43" y1="49.53" x2="46.294" y2="28.8252" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
@@ -4891,7 +4891,7 @@ design rules under a new name.</description>
 <signal name="N$41">
 <contactref element="L3" pad="1"/>
 <contactref element="USB1" pad="P$3"/>
-<wire x1="56.6888" y1="22.3764" x2="64.254" y2="-26.3364" width="0" layer="19" extent="16-16"/>
+<wire x1="56.6888" y1="22.3764" x2="64.1016" y2="-11.8584" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PD2/RXD">
 <contactref element="U$2" pad="20"/>

@@ -35440,22 +35440,6 @@ Source: RS Component / Phycomp</description>
 <label x="482.6" y="287.02" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="EXT" gate="A" pin="13"/>
-<junction x="491.49" y="289.56"/>
-<wire x1="491.49" y1="289.56" x2="482.6" y2="289.56" width="0.1524" layer="91"/>
-<label x="482.6" y="289.56" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$59" class="0">
-<segment>
-<pinref part="EXT" gate="A" pin="14"/>
-<junction x="499.11" y="289.56"/>
-<wire x1="499.11" y1="289.56" x2="506.73" y2="289.56" width="0.1524" layer="91"/>
-<label x="506.73" y="289.56" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$60" class="0">
 <segment>
 <pinref part="EXT" gate="A" pin="16"/>
@@ -35507,6 +35491,12 @@ Source: RS Component / Phycomp</description>
 <wire x1="347.98" y1="237.49" x2="341.63" y2="237.49" width="0.1524" layer="91"/>
 <label x="341.63" y="237.49" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="EXT" gate="A" pin="14"/>
+<junction x="499.11" y="289.56"/>
+<wire x1="499.11" y1="289.56" x2="506.73" y2="289.56" width="0.1524" layer="91"/>
+<label x="506.73" y="289.56" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LED_A" class="0">
 <segment>
@@ -35514,6 +35504,12 @@ Source: RS Component / Phycomp</description>
 <junction x="347.98" y="254"/>
 <wire x1="347.98" y1="254" x2="341.63" y2="254" width="0.1524" layer="91"/>
 <label x="341.63" y="254" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="EXT" gate="A" pin="13"/>
+<junction x="491.49" y="289.56"/>
+<wire x1="491.49" y1="289.56" x2="482.6" y2="289.56" width="0.1524" layer="91"/>
+<label x="482.6" y="289.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

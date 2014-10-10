@@ -33464,7 +33464,7 @@ Source: RS Component / Phycomp</description>
 <part name="U$2" library="SparkFun-DigitalIC" deviceset="ATTINY84" device=""/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0402-CAP"/>
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="OFFSET_PADS"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS" value="AVR_SPI_PRG_6NS"/>
 <part name="SKW_UART" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="DL1" library="BaseApp" deviceset="DUOLED-1X2" device=""/>

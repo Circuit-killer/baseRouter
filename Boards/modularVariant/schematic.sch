@@ -18201,41 +18201,6 @@ chip</description>
 <text x="-0.762" y="-0.254" size="0.4064" layer="27">&gt;VALUE</text>
 <text x="-0.889" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
 </package>
-<package name="0603-ARV">
-<description>&lt;b&gt;Chip Resistor Array&lt;/b&gt; size 4 × 0603&lt;p&gt;
-convex termination - Phycomp Components&lt;br&gt;
-Source: RS Components</description>
-<wire x1="-1.55" y1="0.45" x2="1.55" y2="0.45" width="0.1016" layer="51"/>
-<wire x1="1.55" y1="0.45" x2="1.55" y2="-0.45" width="0.1016" layer="51"/>
-<wire x1="-1.55" y1="-0.45" x2="-1.55" y2="0.45" width="0.1016" layer="51"/>
-<wire x1="1.55" y1="-0.45" x2="-1.55" y2="-0.45" width="0.1016" layer="51"/>
-<smd name="1" x="-1.2" y="-0.625" dx="0.5" dy="0.65" layer="1"/>
-<smd name="2" x="-0.4" y="-0.625" dx="0.5" dy="0.65" layer="1"/>
-<smd name="3" x="0.4" y="-0.625" dx="0.5" dy="0.65" layer="1"/>
-<smd name="4" x="1.2" y="-0.625" dx="0.5" dy="0.65" layer="1"/>
-<smd name="5" x="1.2" y="0.625" dx="0.5" dy="0.65" layer="1"/>
-<smd name="6" x="0.4" y="0.625" dx="0.5" dy="0.65" layer="1"/>
-<smd name="7" x="-0.4" y="0.625" dx="0.5" dy="0.65" layer="1"/>
-<smd name="8" x="-1.2" y="0.625" dx="0.5" dy="0.65" layer="1"/>
-<text x="-1.905" y="-2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.905" y="1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.6" y1="0.7" x2="-0.9" y2="0.8" layer="51"/>
-<rectangle x1="-0.7" y1="0.7" x2="-0.1" y2="0.8" layer="51"/>
-<rectangle x1="0.1" y1="0.7" x2="0.7" y2="0.8" layer="51"/>
-<rectangle x1="0.9" y1="0.7" x2="1.6" y2="0.8" layer="51"/>
-<rectangle x1="-1.5" y1="0.5" x2="-0.95" y2="0.7" layer="51"/>
-<rectangle x1="-0.65" y1="0.5" x2="-0.15" y2="0.7" layer="51"/>
-<rectangle x1="0.15" y1="0.5" x2="0.65" y2="0.7" layer="51"/>
-<rectangle x1="0.95" y1="0.5" x2="1.5" y2="0.7" layer="51"/>
-<rectangle x1="0.9" y1="-0.8" x2="1.6" y2="-0.7" layer="51"/>
-<rectangle x1="0.1" y1="-0.8" x2="0.7" y2="-0.7" layer="51"/>
-<rectangle x1="-0.7" y1="-0.8" x2="-0.1" y2="-0.7" layer="51"/>
-<rectangle x1="-1.6" y1="-0.8" x2="-0.9" y2="-0.7" layer="51"/>
-<rectangle x1="0.95" y1="-0.7" x2="1.5" y2="-0.5" layer="51"/>
-<rectangle x1="0.15" y1="-0.7" x2="0.65" y2="-0.5" layer="51"/>
-<rectangle x1="-0.65" y1="-0.7" x2="-0.15" y2="-0.5" layer="51"/>
-<rectangle x1="-1.5" y1="-0.7" x2="-0.95" y2="-0.5" layer="51"/>
-</package>
 <package name="CAP-PTH-SMALL">
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
 <pad name="1" x="0" y="0" drill="0.7" diameter="1.651"/>
@@ -18445,21 +18410,6 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="RESISTOR-1">
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="CAP">
 <wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
@@ -18852,33 +18802,6 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <technology name="">
 <attribute name="PROD_ID" value="RES-07859"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RESISTOR-ARRAY" prefix="R" uservalue="yes">
-<description>&lt;b&gt;Array Chip Resistor&lt;/b&gt;&lt;p&gt;
-Source: RS Component / Phycomp</description>
-<gates>
-<gate name="A" symbol="RESISTOR-1" x="0" y="7.62" addlevel="always" swaplevel="1"/>
-<gate name="B" symbol="RESISTOR-1" x="0" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="C" symbol="RESISTOR-1" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="D" symbol="RESISTOR-1" x="0" y="-7.62" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="0603-ARV" package="0603-ARV">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="8"/>
-<connect gate="B" pin="1" pad="2"/>
-<connect gate="B" pin="2" pad="7"/>
-<connect gate="C" pin="1" pad="3"/>
-<connect gate="C" pin="2" pad="6"/>
-<connect gate="D" pin="1" pad="4"/>
-<connect gate="D" pin="2" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -33862,13 +33785,13 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2032" drill="0.3048">
+<class number="0" name="default" width="0.1524" drill="0.3048">
 <clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="power" width="0.2032" drill="0.3048">
+<class number="1" name="power" width="0.1524" drill="0.3048">
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="gnd" width="0.2032" drill="0.3048">
+<class number="2" name="gnd" width="0.1524" drill="0.3048">
 <clearance class="2" value="0.1524"/>
 </class>
 </classes>
@@ -33954,7 +33877,6 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <part name="FRAME1" library="frames" deviceset="FRAME_C_L" device=""/>
 <part name="R27" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
 <part name="U$6" library="BaseApp" deviceset="FDFMA2P857" device=""/>
-<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="330"/>
 <part name="SW1" library="BaseApp" deviceset="TACTILE-2PIN" device="'"/>
 <part name="EXT" library="pinhead" deviceset="PINHD-2X8" device=""/>
 <part name="U$2" library="SparkFun-DigitalIC" deviceset="ATTINY84" device=""/>
@@ -33985,6 +33907,10 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="33pF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="33pF"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M05X2" device="PTH"/>
+<part name="R24" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="330"/>
+<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="330"/>
+<part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="330"/>
+<part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="330"/>
 </parts>
 <sheets>
 <sheet>
@@ -34204,10 +34130,6 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <instance part="FRAME1" gate="G$2" x="452.12" y="0"/>
 <instance part="R27" gate="G$1" x="137.16" y="54.61" rot="R180"/>
 <instance part="U$6" gate="G$1" x="193.04" y="85.09"/>
-<instance part="R14" gate="A" x="497.84" y="149.86" rot="R180"/>
-<instance part="R14" gate="B" x="508" y="149.86" rot="R90"/>
-<instance part="R14" gate="C" x="496.57" y="104.14" rot="R180"/>
-<instance part="R14" gate="D" x="502.92" y="86.36" rot="R90"/>
 <instance part="SW1" gate="G$1" x="158.75" y="238.76"/>
 <instance part="EXT" gate="A" x="520.7" y="295.91"/>
 <instance part="U$2" gate="G$1" x="106.68" y="223.52"/>
@@ -34244,6 +34166,10 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <instance part="C6" gate="G$1" x="200.66" y="237.49" rot="R90"/>
 <instance part="C9" gate="G$1" x="200.66" y="227.33" rot="R90"/>
 <instance part="JP1" gate="G$1" x="461.01" y="295.91"/>
+<instance part="R24" gate="G$1" x="509.27" y="86.36" rot="R270"/>
+<instance part="R14" gate="G$1" x="496.57" y="104.14"/>
+<instance part="R25" gate="G$1" x="497.84" y="149.86"/>
+<instance part="R26" gate="G$1" x="508" y="149.86" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -34281,7 +34207,8 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pinref part="GND67" gate="G$1" pin="GND"/>
 <wire x1="504.19" y1="104.14" x2="501.65" y2="104.14" width="0.1524" layer="91"/>
 <junction x="504.19" y="104.14"/>
-<pinref part="R14" gate="C" pin="1"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<junction x="501.65" y="104.14"/>
 </segment>
 <segment>
 <pinref part="L2" gate="G$1" pin="2"/>
@@ -34499,7 +34426,8 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <segment>
 <wire x1="508" y1="144.78" x2="508" y2="140.97" width="0.1524" layer="91"/>
 <label x="508" y="140.97" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R14" gate="B" pin="1"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<junction x="508" y="144.78"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="GLED-"/>
@@ -34728,7 +34656,8 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <segment>
 <wire x1="492.76" y1="149.86" x2="490.22" y2="149.86" width="0.1524" layer="91"/>
 <label x="490.22" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R14" gate="A" pin="2"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<junction x="492.76" y="149.86"/>
 </segment>
 <segment>
 <pinref part="EXT" gate="A" pin="1"/>
@@ -35052,14 +34981,18 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pinref part="U1" gate="G$1" pin="GLED+"/>
 <junction x="488.95" y="93.98"/>
 <wire x1="502.92" y1="93.98" x2="488.95" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="R14" gate="D" pin="2"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<junction x="509.27" y="91.44"/>
+<wire x1="502.92" y1="91.44" x2="509.27" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ETH0_GRN+" class="0">
 <segment>
 <wire x1="502.92" y1="81.28" x2="502.92" y2="68.58" width="0.1524" layer="91"/>
 <label x="502.92" y="68.58" size="1.778" layer="95" rot="R90"/>
-<pinref part="R14" gate="D" pin="1"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<junction x="509.27" y="81.28"/>
+<wire x1="509.27" y1="81.28" x2="502.92" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
@@ -35711,7 +35644,8 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pinref part="U2" gate="G$1" pin="YLED-"/>
 <junction x="488.95" y="154.94"/>
 <wire x1="508" y1="154.94" x2="488.95" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R14" gate="B" pin="2"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<junction x="508" y="154.94"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -35720,7 +35654,8 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <junction x="488.95" y="144.78"/>
 <wire x1="488.95" y1="144.78" x2="502.92" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="502.92" y1="144.78" x2="502.92" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="R14" gate="A" pin="1"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<junction x="502.92" y="149.86"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -35728,7 +35663,8 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pinref part="U1" gate="G$1" pin="YLED-"/>
 <junction x="488.95" y="104.14"/>
 <wire x1="491.49" y1="104.14" x2="488.95" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="R14" gate="C" pin="2"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<junction x="491.49" y="104.14"/>
 </segment>
 </net>
 <net name="N$32" class="0">

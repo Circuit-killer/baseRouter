@@ -36151,12 +36151,6 @@ Texas Instruments and Fairchild Semiconductor, ect.&lt;br&gt;
 <label x="533.4" y="300.99" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="EXT" gate="A" pin="10"/>
-<junction x="525.78" y="293.37"/>
-<wire x1="525.78" y1="293.37" x2="533.4" y2="293.37" width="0.1524" layer="91"/>
-<label x="533.4" y="293.37" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="369.57" y1="246.38" x2="374.65" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="374.65" y1="246.38" x2="374.65" y2="241.3" width="0.1524" layer="91"/>
@@ -36190,12 +36184,6 @@ Texas Instruments and Fairchild Semiconductor, ect.&lt;br&gt;
 <wire x1="203.2" y1="237.49" x2="203.2" y2="227.33" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="227.33" x2="203.2" y2="222.25" width="0.1524" layer="91"/>
 <label x="203.2" y="222.25" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="EXT" gate="A" pin="16"/>
-<junction x="525.78" y="285.75"/>
-<wire x1="525.78" y1="285.75" x2="533.4" y2="285.75" width="0.1524" layer="91"/>
-<label x="533.4" y="285.75" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
@@ -36314,6 +36302,12 @@ Texas Instruments and Fairchild Semiconductor, ect.&lt;br&gt;
 <label x="55.88" y="25.4" size="1.016" layer="95" xref="yes"/>
 <junction x="50.8" y="25.4"/>
 </segment>
+<segment>
+<pinref part="EXT" gate="A" pin="16"/>
+<junction x="525.78" y="285.75"/>
+<wire x1="525.78" y1="285.75" x2="533.4" y2="285.75" width="0.1524" layer="91"/>
+<label x="533.4" y="285.75" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="USB_D_P" class="0">
 <segment>
@@ -36321,6 +36315,12 @@ Texas Instruments and Fairchild Semiconductor, ect.&lt;br&gt;
 <pinref part="JP4" gate="G$1" pin="D+"/>
 <label x="55.88" y="27.94" size="1.016" layer="95" xref="yes"/>
 <junction x="50.8" y="27.94"/>
+</segment>
+<segment>
+<pinref part="EXT" gate="A" pin="15"/>
+<junction x="518.16" y="285.75"/>
+<wire x1="518.16" y1="285.75" x2="509.27" y2="285.75" width="0.1524" layer="91"/>
+<label x="509.27" y="285.75" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -37344,10 +37344,10 @@ Texas Instruments and Fairchild Semiconductor, ect.&lt;br&gt;
 <label x="31.75" y="303.53" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="EXT" gate="A" pin="11"/>
-<junction x="518.16" y="290.83"/>
-<wire x1="518.16" y1="290.83" x2="509.27" y2="290.83" width="0.1524" layer="91"/>
-<label x="509.27" y="290.83" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="EXT" gate="A" pin="10"/>
+<junction x="525.78" y="293.37"/>
+<wire x1="525.78" y1="293.37" x2="533.4" y2="293.37" width="0.1524" layer="91"/>
+<label x="533.4" y="293.37" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2S_SD" class="0">
@@ -37456,10 +37456,10 @@ Texas Instruments and Fairchild Semiconductor, ect.&lt;br&gt;
 <label x="81.28" y="401.32" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="EXT" gate="A" pin="15"/>
-<junction x="518.16" y="285.75"/>
-<wire x1="518.16" y1="285.75" x2="509.27" y2="285.75" width="0.1524" layer="91"/>
-<label x="509.27" y="285.75" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="EXT" gate="A" pin="11"/>
+<junction x="518.16" y="290.83"/>
+<wire x1="518.16" y1="290.83" x2="509.27" y2="290.83" width="0.1524" layer="91"/>
+<label x="509.27" y="290.83" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SKW_SPI_MOSI" class="0">

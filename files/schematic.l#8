@@ -14306,22 +14306,36 @@ Make a shield with ease, this package has all the named pins as well as the two 
 <text x="2.54" y="-17.78" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="SKY87608">
-<wire x1="3.81" y1="7.62" x2="3.81" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-6.35" x2="-3.81" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-6.35" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-5.08" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="2.54" x2="-3.81" y2="6.35" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="6.35" x2="-3.81" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="7.62" x2="3.81" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="6.35" x2="-6.35" y2="6.35" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-5.08" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="6.35" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.27" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="6.35" y2="2.54" width="0.254" layer="94"/>
-<wire x1="3.81" y1="6.35" x2="6.35" y2="6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="6.35" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-6.35" x2="-5.08" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-6.35" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="6.35" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="6.35" x2="-6.35" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="6.35" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="6.35" x2="6.35" y2="6.35" width="0.254" layer="94"/>
+<pin name="IN" x="-6.35" y="6.35" visible="pin" length="point"/>
+<pin name="LX" x="6.35" y="2.54" visible="pin" length="point" rot="R180"/>
+<pin name="NC" x="-6.35" y="2.54" visible="pin" length="point"/>
+<pin name="GND" x="-6.35" y="-5.08" visible="pin" length="point"/>
+<pin name="FB" x="6.35" y="-5.08" visible="pin" length="point" rot="R180"/>
+<pin name="CMP" x="6.35" y="-1.27" visible="pin" length="point" rot="R180"/>
+<pin name="EN" x="-6.35" y="-1.27" visible="pin" length="point"/>
+<pin name="BST" x="6.35" y="6.35" visible="pin" length="point" rot="R180"/>
+<text x="-5.08" y="-8.89" size="1.27" layer="94">&gt;NAME</text>
+<text x="-5.08" y="8.89" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>

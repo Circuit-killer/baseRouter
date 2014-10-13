@@ -33856,6 +33856,9 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="330"/>
 <part name="U$5" library="schematic" deviceset="SKY87608" device=""/>
 <part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="100k"/>
+<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="56pF"/>
+<part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="10nF"/>
+<part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="3k"/>
 </parts>
 <sheets>
 <sheet>
@@ -33870,7 +33873,7 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <text x="46.99" y="36.83" size="2.54" layer="94" rot="R180">Battery JST</text>
 <text x="194.31" y="10.16" size="2.54" layer="94" rot="R180">VDD Regulation from Battery or from 5VDC</text>
 <text x="148.59" y="78.74" size="2.54" layer="94">DC Power IN</text>
-<text x="156.21" y="129.54" size="6.4516" layer="94">Power Supply</text>
+<text x="157.48" y="142.24" size="6.4516" layer="94">Power Supply</text>
 <text x="127" y="137.16" size="2.54" layer="94">DC 5V-6V</text>
 <text x="15.24" y="121.92" size="1.778" layer="94">DC 6V - 40V</text>
 <text x="189.23" y="49.53" size="2.54" layer="94">DC 3V3</text>
@@ -34116,6 +34119,9 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <instance part="R26" gate="G$1" x="508" y="149.86" rot="R90"/>
 <instance part="U$5" gate="G$1" x="90.17" y="130.81"/>
 <instance part="R28" gate="G$1" x="77.47" y="128.27" rot="R90"/>
+<instance part="C14" gate="G$1" x="177.8" y="129.54" rot="R180"/>
+<instance part="C22" gate="G$1" x="187.96" y="129.54" rot="R180"/>
+<instance part="R29" gate="G$1" x="182.88" y="120.65"/>
 </instances>
 <busses>
 </busses>
@@ -34549,6 +34555,15 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <junction x="468.63" y="290.83"/>
 <wire x1="468.63" y1="290.83" x2="473.71" y2="290.83" width="0.1524" layer="91"/>
 <label x="473.71" y="290.83" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="1"/>
+<junction x="177.8" y="124.46"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<junction x="177.8" y="120.65"/>
+<wire x1="177.8" y1="124.46" x2="177.8" y2="120.65" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="120.65" x2="170.18" y2="120.65" width="0.1524" layer="91"/>
+<label x="170.18" y="120.65" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -36080,10 +36095,21 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="81.28" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="CMP" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="CMP"/>
 <junction x="96.52" y="129.54"/>
+<wire x1="96.52" y1="129.54" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
+<label x="101.6" y="129.54" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C22" gate="G$1" pin="2"/>
+<junction x="187.96" y="132.08"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<junction x="177.8" y="132.08"/>
+<wire x1="187.96" y1="132.08" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
+<label x="170.18" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -36125,6 +36151,15 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pinref part="U$5" gate="G$1" pin="BST"/>
 <junction x="96.52" y="137.16"/>
 <wire x1="99.06" y1="137.16" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="C22" gate="G$1" pin="1"/>
+<junction x="187.96" y="124.46"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+<junction x="187.96" y="120.65"/>
+<wire x1="187.96" y1="124.46" x2="187.96" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

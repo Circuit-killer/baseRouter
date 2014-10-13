@@ -29775,6 +29775,27 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <text x="-0.5" y="-1.1" size="0.254" layer="21">&gt;VALUE</text>
 <smd name="P$7" x="0" y="0" dx="0.4" dy="1.1" layer="1" roundness="100"/>
 </package>
+<package name="8PIN-SOP-8L-EP">
+<smd name="P$1" x="0" y="0" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$2" x="0" y="-1.27" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$3" x="0" y="-2.54" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$4" x="0" y="-3.81" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$5" x="6" y="-3.81" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$6" x="6" y="-2.54" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$7" x="6" y="-1.27" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$8" x="6" y="0" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<wire x1="0.8" y1="0.6" x2="1" y2="0.8" width="0.127" layer="21" curve="-90"/>
+<wire x1="1" y1="0.8" x2="5" y2="0.8" width="0.127" layer="21"/>
+<wire x1="5" y1="0.8" x2="5.2" y2="0.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="5.2" y1="0.6" x2="5.2" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="5.2" y1="-4.4" x2="5" y2="-4.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="5" y1="-4.6" x2="1" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="1" y1="-4.6" x2="0.8" y2="-4.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.8" y1="-4.4" x2="0.8" y2="0.6" width="0.127" layer="21"/>
+<circle x="-1.2" y="0" radius="0.282840625" width="0.127" layer="21"/>
+<text x="1.4" y="-5.6" size="0.8128" layer="21">&gt;NAME</text>
+<text x="1.8" y="1" size="0.8128" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CPOL-US">
@@ -29869,6 +29890,38 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <text x="5.08" y="5.08" size="1.016" layer="94">&gt;NAME</text>
 <text x="5.08" y="-7.62" size="1.016" layer="94">&gt;VALUE</text>
 <pin name="7" x="0" y="-10.16" length="middle" rot="R90"/>
+</symbol>
+<symbol name="SKY87608">
+<wire x1="5.08" y1="7.62" x2="5.08" y2="6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="6.35" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-6.35" x2="-5.08" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-6.35" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="6.35" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="6.35" x2="-6.35" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="6.35" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="6.35" x2="6.35" y2="6.35" width="0.254" layer="94"/>
+<pin name="IN" x="-6.35" y="6.35" visible="pin" length="point"/>
+<pin name="LX" x="6.35" y="2.54" visible="pin" length="point" rot="R180"/>
+<pin name="NC" x="-6.35" y="2.54" visible="pin" length="point"/>
+<pin name="GND" x="-6.35" y="-5.08" visible="pin" length="point"/>
+<pin name="FB" x="6.35" y="-5.08" visible="pin" length="point" rot="R180"/>
+<pin name="CMP" x="6.35" y="-1.27" visible="pin" length="point" rot="R180"/>
+<pin name="EN" x="-6.35" y="-1.27" visible="pin" length="point"/>
+<pin name="BST" x="6.35" y="6.35" visible="pin" length="point" rot="R180"/>
+<text x="-5.08" y="-8.89" size="1.27" layer="94">&gt;NAME</text>
+<text x="-5.08" y="8.89" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -31237,6 +31290,28 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <connect gate="G$1" pin="5" pad="P$5"/>
 <connect gate="G$1" pin="6" pad="P$6"/>
 <connect gate="G$1" pin="7" pad="P$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SKY87608">
+<gates>
+<gate name="G$1" symbol="SKY87608" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="8PIN-SOP-8L-EP">
+<connects>
+<connect gate="G$1" pin="BST" pad="P$8"/>
+<connect gate="G$1" pin="CMP" pad="P$6"/>
+<connect gate="G$1" pin="EN" pad="P$7"/>
+<connect gate="G$1" pin="FB" pad="P$5"/>
+<connect gate="G$1" pin="GND" pad="P$4"/>
+<connect gate="G$1" pin="IN" pad="P$1"/>
+<connect gate="G$1" pin="LX" pad="P$2"/>
+<connect gate="G$1" pin="NC" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -33911,6 +33986,7 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="330"/>
 <part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="330"/>
 <part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="330"/>
+<part name="U$5" library="schematic" deviceset="SKY87608" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -34170,6 +34246,7 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <instance part="R14" gate="G$1" x="496.57" y="104.14"/>
 <instance part="R25" gate="G$1" x="497.84" y="149.86"/>
 <instance part="R26" gate="G$1" x="508" y="149.86" rot="R90"/>
+<instance part="U$5" gate="G$1" x="176.53" y="142.24" rot="R90"/>
 </instances>
 <busses>
 </busses>

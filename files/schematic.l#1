@@ -13140,25 +13140,43 @@ Make a shield with ease, this package has all the named pins as well as the two 
 <text x="9.46" y="-3.08" size="1.27" layer="21" rot="R90">&gt;VALUE</text>
 </package>
 <package name="8PIN-SOP-8L-EP">
-<smd name="P$1" x="0" y="0" dx="1.27" dy="0.42" layer="1" roundness="100"/>
-<smd name="P$2" x="0" y="-1.27" dx="1.27" dy="0.42" layer="1" roundness="100"/>
-<smd name="P$3" x="0" y="-2.54" dx="1.27" dy="0.42" layer="1" roundness="100"/>
-<smd name="P$4" x="0" y="-3.81" dx="1.27" dy="0.42" layer="1" roundness="100"/>
-<smd name="P$5" x="6" y="-3.81" dx="1.27" dy="0.42" layer="1" roundness="100"/>
-<smd name="P$6" x="6" y="-2.54" dx="1.27" dy="0.42" layer="1" roundness="100"/>
-<smd name="P$7" x="6" y="-1.27" dx="1.27" dy="0.42" layer="1" roundness="100"/>
-<smd name="P$8" x="6" y="0" dx="1.27" dy="0.42" layer="1" roundness="100"/>
-<wire x1="0.8" y1="0.6" x2="1" y2="0.8" width="0.127" layer="21" curve="-90"/>
-<wire x1="1" y1="0.8" x2="5" y2="0.8" width="0.127" layer="21"/>
-<wire x1="5" y1="0.8" x2="5.2" y2="0.6" width="0.127" layer="21" curve="-90"/>
-<wire x1="5.2" y1="0.6" x2="5.2" y2="-4.4" width="0.127" layer="21"/>
-<wire x1="5.2" y1="-4.4" x2="5" y2="-4.6" width="0.127" layer="21" curve="-90"/>
-<wire x1="5" y1="-4.6" x2="1" y2="-4.6" width="0.127" layer="21"/>
-<wire x1="1" y1="-4.6" x2="0.8" y2="-4.4" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.8" y1="-4.4" x2="0.8" y2="0.6" width="0.127" layer="21"/>
-<circle x="-1.2" y="0" radius="0.282840625" width="0.127" layer="21"/>
-<text x="1.4" y="-5.6" size="0.8128" layer="21">&gt;NAME</text>
-<text x="1.8" y="1" size="0.8128" layer="21">&gt;VALUE</text>
+<smd name="P$1" x="-3.048" y="1.778" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$2" x="-3.048" y="0.508" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$3" x="-3.048" y="-0.762" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$4" x="-3.048" y="-2.032" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$5" x="2.952" y="-2.032" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$6" x="2.952" y="-0.762" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$7" x="2.952" y="0.508" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<smd name="P$8" x="2.952" y="1.778" dx="1.27" dy="0.42" layer="1" roundness="100"/>
+<wire x1="-2.248" y1="2.378" x2="-2.048" y2="2.578" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.048" y1="2.578" x2="1.952" y2="2.578" width="0.127" layer="21"/>
+<wire x1="1.952" y1="2.578" x2="2.152" y2="2.378" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.152" y1="2.378" x2="2.152" y2="-2.622" width="0.127" layer="21"/>
+<wire x1="2.152" y1="-2.622" x2="1.952" y2="-2.822" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.952" y1="-2.822" x2="-2.048" y2="-2.822" width="0.127" layer="21"/>
+<wire x1="-2.048" y1="-2.822" x2="-2.248" y2="-2.622" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.248" y1="-2.622" x2="-2.248" y2="2.378" width="0.127" layer="21"/>
+<circle x="-4.248" y="1.778" radius="0.282840625" width="0.127" layer="21"/>
+<text x="-1.648" y="-3.822" size="0.8128" layer="21">&gt;NAME</text>
+<text x="-1.248" y="2.778" size="0.8128" layer="21">&gt;VALUE</text>
+</package>
+<package name="0302">
+<smd name="P$1" x="0" y="0" dx="3" dy="1.4" layer="1" roundness="100"/>
+<smd name="P$2" x="0" y="2.4" dx="3" dy="1.4" layer="1" roundness="100"/>
+<wire x1="-0.8" y1="3.2" x2="-1.6" y2="2.4" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.6" y1="2.4" x2="-1.6" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0" x2="-0.8" y2="-0.8" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.8" x2="1.6" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.6" y1="0" x2="1.6" y2="2.4" width="0.127" layer="21"/>
+<wire x1="1.6" y1="2.4" x2="0.8" y2="3.2" width="0.127" layer="21" curve="90"/>
+<wire x1="0.8" y1="3.2" x2="-0.8" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="2.4" x2="-0.8" y2="1.6" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.8" y1="1.6" x2="0.8" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.8" y1="1.6" x2="1.6" y2="2.4" width="0.127" layer="21" curve="90"/>
+<wire x1="1.6" y1="0" x2="0.8" y2="0.8" width="0.127" layer="21" curve="90"/>
+<wire x1="0.8" y1="0.8" x2="-0.8" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="0.8" x2="-1.6" y2="0" width="0.127" layer="21" curve="90"/>
 </package>
 </packages>
 <symbols>
@@ -20572,6 +20590,22 @@ http://www.ladyada.net/library/pcb/eaglelibrary.html</description>
 <connect gate="G$1" pin="IN" pad="P$1"/>
 <connect gate="G$1" pin="LX" pad="P$2"/>
 <connect gate="G$1" pin="NC" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_0302">
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0302">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>

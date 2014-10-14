@@ -7131,6 +7131,21 @@ JST PH 2-pin thru-home side entry</description>
 <text x="-2.914" y="-6.096" size="1.4224" layer="21" ratio="12">+</text>
 <text x="2.271" y="-6.096" size="1.4224" layer="21" ratio="12">-</text>
 </package>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="CPOL-US">
@@ -7185,6 +7200,9 @@ JST PH 2-pin thru-home side entry</description>
 <text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9096,6 +9114,20 @@ JST PH 2-pin thru-home side entry</description>
 <connect gate="G$1" pin="1" pad="2"/>
 <connect gate="G$1" pin="2" pad="1"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -33236,6 +33268,14 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="10nF"/>
 <part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="3k"/>
 <part name="U$7" library="schematic" deviceset="INDUCTOR_0302" device="" value="6.8uH 0302"/>
+<part name="U$9" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$11" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$12" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$13" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$14" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$15" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$16" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$17" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -33303,6 +33343,8 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="170.18" y1="59.69" x2="219.71" y2="59.69" width="1.9304" layer="94" style="shortdash"/>
 <wire x1="115.57" y1="59.69" x2="115.57" y2="3.81" width="1.9304" layer="94" style="shortdash"/>
 <text x="45.72" y="64.77" size="5.08" layer="94">Battery Charger</text>
+<text x="441.96" y="334.01" size="5.08" layer="94" font="vector" ratio="15">FIDUCIAL</text>
+<text x="181.61" y="227.33" size="1.778" layer="94">32.768kHz</text>
 </plain>
 <instances>
 <instance part="GND19" gate="1" x="66.04" y="12.7"/>
@@ -33498,6 +33540,14 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <instance part="C22" gate="G$1" x="187.96" y="129.54" rot="R180"/>
 <instance part="R29" gate="G$1" x="182.88" y="120.65"/>
 <instance part="U$7" gate="G$1" x="119.38" y="134.62" rot="R90"/>
+<instance part="U$9" gate="G$1" x="444.5" y="358.14"/>
+<instance part="U$11" gate="G$1" x="454.66" y="358.14"/>
+<instance part="U$12" gate="G$1" x="464.82" y="358.14"/>
+<instance part="U$13" gate="G$1" x="474.98" y="358.14"/>
+<instance part="U$14" gate="G$1" x="444.5" y="347.98"/>
+<instance part="U$15" gate="G$1" x="454.66" y="347.98"/>
+<instance part="U$16" gate="G$1" x="464.82" y="347.98"/>
+<instance part="U$17" gate="G$1" x="474.98" y="347.98"/>
 </instances>
 <busses>
 </busses>

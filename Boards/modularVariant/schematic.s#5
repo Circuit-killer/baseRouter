@@ -29325,16 +29325,6 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <text x="-2.286" y="1.651" size="0.4064" layer="25">&gt;NAME</text>
 <text x="0.254" y="1.651" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="INDUCTOR-10X9.8X6">
-<wire x1="-5.75" y1="5.5" x2="5.75" y2="5.5" width="0.127" layer="21"/>
-<wire x1="5.75" y1="5.5" x2="5.75" y2="-5.5" width="0.127" layer="21"/>
-<wire x1="5.75" y1="-5.5" x2="-5.75" y2="-5.5" width="0.127" layer="21"/>
-<wire x1="-5.75" y1="-5.5" x2="-5.75" y2="5.5" width="0.127" layer="21"/>
-<smd name="P$1" x="-3.3" y="0" dx="3.5" dy="10.2" layer="1" rot="R180"/>
-<smd name="P$2" x="3.3" y="0" dx="3.5" dy="10.2" layer="1" rot="R180"/>
-<text x="-2.9" y="5.4" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.2" y="-6.7" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 <package name="AAT3672-1/-2">
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
@@ -29796,6 +29786,26 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <text x="-1.648" y="-3.822" size="0.8128" layer="21">&gt;NAME</text>
 <text x="-1.248" y="2.778" size="0.8128" layer="21">&gt;VALUE</text>
 </package>
+<package name="0302">
+<smd name="P$1" x="0" y="0" dx="3" dy="1.4" layer="1" roundness="100"/>
+<smd name="P$2" x="0" y="2.4" dx="3" dy="1.4" layer="1" roundness="100"/>
+<wire x1="-0.8" y1="3.2" x2="-1.6" y2="2.4" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.6" y1="2.4" x2="-1.6" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0" x2="-0.8" y2="-0.8" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.8" x2="1.6" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.6" y1="0" x2="1.6" y2="2.4" width="0.127" layer="21"/>
+<wire x1="1.6" y1="2.4" x2="0.8" y2="3.2" width="0.127" layer="21" curve="90"/>
+<wire x1="0.8" y1="3.2" x2="-0.8" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="2.4" x2="-0.8" y2="1.6" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.8" y1="1.6" x2="0.8" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.8" y1="1.6" x2="1.6" y2="2.4" width="0.127" layer="21" curve="90"/>
+<wire x1="1.6" y1="0" x2="0.8" y2="0.8" width="0.127" layer="21" curve="90"/>
+<wire x1="0.8" y1="0.8" x2="-0.8" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="0.8" x2="-1.6" y2="0" width="0.127" layer="21" curve="90"/>
+<text x="1.27" y="-1.27" size="1.016" layer="21">&gt;NAME</text>
+<text x="1.27" y="3.81" size="1.016" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CPOL-US">
@@ -29823,20 +29833,6 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="L">
-<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90" cap="flat"/>
-<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<text x="2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="AAT3672-1/-2">
 <wire x1="-10.16" y1="11.43" x2="10.16" y2="11.43" width="0.254" layer="94"/>
@@ -29922,6 +29918,20 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <pin name="BST" x="6.35" y="6.35" visible="pin" length="point" rot="R180"/>
 <text x="-5.08" y="-8.89" size="1.27" layer="94">&gt;NAME</text>
 <text x="-5.08" y="8.89" size="1.27" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="INDUCTOR">
+<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90" cap="flat"/>
+<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<text x="2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -31128,22 +31138,6 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 </device>
 </devices>
 </deviceset>
-<deviceset name="INDUCTOR" prefix="L" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="INDUCTOR-10X9.8X6">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="AAT3672-1/-2">
 <gates>
 <gate name="G$1" symbol="AAT3672-1/-2" x="0" y="0"/>
@@ -31312,6 +31306,22 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <connect gate="G$1" pin="IN" pad="P$1"/>
 <connect gate="G$1" pin="LX" pad="P$2"/>
 <connect gate="G$1" pin="NC" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR_0302">
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0302">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -33787,7 +33797,6 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <part name="CN1" library="adafruit" deviceset="DCBARREL" device="PTH"/>
 <part name="C3" library="schematic" deviceset="CPOL-US" device="E3.5-10" value="680uF"/>
 <part name="D3" library="schematic" deviceset="DIODE-SCHOTTKY" device="_"/>
-<part name="L1" library="schematic" deviceset="INDUCTOR" device="" value="33uH 3A"/>
 <part name="C4" library="schematic" deviceset="CPOL-US" device="E5-10.5" value="220uF"/>
 <part name="CN2" library="adafruit" deviceset="JST_2PIN" device="-THM"/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0402" value="4.7uF"/>
@@ -33856,6 +33865,10 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="330"/>
 <part name="U$5" library="schematic" deviceset="SKY87608" device=""/>
 <part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="100k"/>
+<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="56pF"/>
+<part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="10nF"/>
+<part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="3k"/>
+<part name="U$7" library="schematic" deviceset="INDUCTOR_0302" device="" value="6.8uH 0302"/>
 </parts>
 <sheets>
 <sheet>
@@ -33870,7 +33883,7 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <text x="46.99" y="36.83" size="2.54" layer="94" rot="R180">Battery JST</text>
 <text x="194.31" y="10.16" size="2.54" layer="94" rot="R180">VDD Regulation from Battery or from 5VDC</text>
 <text x="148.59" y="78.74" size="2.54" layer="94">DC Power IN</text>
-<text x="156.21" y="129.54" size="6.4516" layer="94">Power Supply</text>
+<text x="157.48" y="142.24" size="6.4516" layer="94">Power Supply</text>
 <text x="127" y="137.16" size="2.54" layer="94">DC 5V-6V</text>
 <text x="15.24" y="121.92" size="1.778" layer="94">DC 6V - 40V</text>
 <text x="189.23" y="49.53" size="2.54" layer="94">DC 3V3</text>
@@ -34019,7 +34032,6 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <instance part="D3" gate="G$1" x="109.22" y="139.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="109.7026" y="137.16" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="L1" gate="G$1" x="119.38" y="134.62" rot="R90"/>
 <instance part="C4" gate="G$1" x="129.54" y="132.08"/>
 <instance part="CN2" gate="G$1" x="29.21" y="45.72" rot="R180"/>
 <instance part="C19" gate="G$1" x="45.72" y="43.18"/>
@@ -34116,6 +34128,10 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <instance part="R26" gate="G$1" x="508" y="149.86" rot="R90"/>
 <instance part="U$5" gate="G$1" x="90.17" y="130.81"/>
 <instance part="R28" gate="G$1" x="77.47" y="128.27" rot="R90"/>
+<instance part="C14" gate="G$1" x="177.8" y="129.54" rot="R180"/>
+<instance part="C22" gate="G$1" x="187.96" y="129.54" rot="R180"/>
+<instance part="R29" gate="G$1" x="182.88" y="120.65"/>
+<instance part="U$7" gate="G$1" x="119.38" y="134.62" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -34474,12 +34490,6 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <label x="533.4" y="300.99" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="EXT" gate="A" pin="10"/>
-<junction x="525.78" y="293.37"/>
-<wire x1="525.78" y1="293.37" x2="533.4" y2="293.37" width="0.1524" layer="91"/>
-<label x="533.4" y="293.37" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="369.57" y1="246.38" x2="374.65" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="374.65" y1="246.38" x2="374.65" y2="241.3" width="0.1524" layer="91"/>
@@ -34515,12 +34525,6 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <label x="203.2" y="222.25" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="EXT" gate="A" pin="16"/>
-<junction x="525.78" y="285.75"/>
-<wire x1="525.78" y1="285.75" x2="533.4" y2="285.75" width="0.1524" layer="91"/>
-<label x="533.4" y="285.75" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <junction x="468.63" y="300.99"/>
 <wire x1="468.63" y1="300.99" x2="473.71" y2="300.99" width="0.1524" layer="91"/>
@@ -34549,6 +34553,15 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <junction x="468.63" y="290.83"/>
 <wire x1="468.63" y1="290.83" x2="473.71" y2="290.83" width="0.1524" layer="91"/>
 <label x="473.71" y="290.83" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="1"/>
+<junction x="177.8" y="124.46"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<junction x="177.8" y="120.65"/>
+<wire x1="177.8" y1="124.46" x2="177.8" y2="120.65" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="120.65" x2="170.18" y2="120.65" width="0.1524" layer="91"/>
+<label x="170.18" y="120.65" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -34628,6 +34641,12 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <label x="55.88" y="25.4" size="1.016" layer="95" xref="yes"/>
 <junction x="50.8" y="25.4"/>
 </segment>
+<segment>
+<pinref part="EXT" gate="A" pin="16"/>
+<junction x="525.78" y="285.75"/>
+<wire x1="525.78" y1="285.75" x2="533.4" y2="285.75" width="0.1524" layer="91"/>
+<label x="533.4" y="285.75" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="USB_D_P" class="0">
 <segment>
@@ -34635,6 +34654,12 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pinref part="JP4" gate="G$1" pin="D+"/>
 <label x="55.88" y="27.94" size="1.016" layer="95" xref="yes"/>
 <junction x="50.8" y="27.94"/>
+</segment>
+<segment>
+<pinref part="EXT" gate="A" pin="15"/>
+<junction x="518.16" y="285.75"/>
+<wire x1="518.16" y1="285.75" x2="509.27" y2="285.75" width="0.1524" layer="91"/>
+<label x="509.27" y="285.75" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -35206,13 +35231,13 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <label x="74.93" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="L1" gate="G$1" pin="2"/>
-<junction x="127" y="134.62"/>
 <pinref part="C4" gate="G$1" pin="+"/>
-<wire x1="127" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
 <junction x="129.54" y="134.62"/>
 <wire x1="129.54" y1="134.62" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
 <label x="134.62" y="134.62" size="1.27" layer="95" xref="yes"/>
+<wire x1="127" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="2"/>
+<junction x="127" y="134.62"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="A"/>
@@ -35658,10 +35683,10 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <label x="31.75" y="303.53" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="EXT" gate="A" pin="11"/>
-<junction x="518.16" y="290.83"/>
-<wire x1="518.16" y1="290.83" x2="509.27" y2="290.83" width="0.1524" layer="91"/>
-<label x="509.27" y="290.83" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="EXT" gate="A" pin="10"/>
+<junction x="525.78" y="293.37"/>
+<wire x1="525.78" y1="293.37" x2="533.4" y2="293.37" width="0.1524" layer="91"/>
+<label x="533.4" y="293.37" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2S_SD" class="0">
@@ -35770,10 +35795,10 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <label x="81.28" y="401.32" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="EXT" gate="A" pin="15"/>
-<junction x="518.16" y="285.75"/>
-<wire x1="518.16" y1="285.75" x2="509.27" y2="285.75" width="0.1524" layer="91"/>
-<label x="509.27" y="285.75" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="EXT" gate="A" pin="11"/>
+<junction x="518.16" y="290.83"/>
+<wire x1="518.16" y1="290.83" x2="509.27" y2="290.83" width="0.1524" layer="91"/>
+<label x="509.27" y="290.83" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SKW_SPI_MOSI" class="0">
@@ -35845,12 +35870,6 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="99.06" y1="180.34" x2="90.17" y2="180.34" width="0.1524" layer="91"/>
 <label x="90.17" y="180.34" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="SJ1" gate="G$1" pin="1"/>
-<junction x="185.42" y="182.88"/>
-<wire x1="185.42" y1="182.88" x2="172.72" y2="182.88" width="0.1524" layer="91"/>
-<label x="172.72" y="182.88" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="ATTINY_RESET" class="0">
 <segment>
@@ -35885,10 +35904,10 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <label x="142.24" y="210.82" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R5" gate="D" pin="1"/>
-<junction x="391.16" y="236.22"/>
-<wire x1="391.16" y1="236.22" x2="384.81" y2="236.22" width="0.1524" layer="91"/>
-<label x="384.81" y="236.22" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="SJ1" gate="G$1" pin="1"/>
+<junction x="185.42" y="182.88"/>
+<wire x1="185.42" y1="182.88" x2="172.72" y2="182.88" width="0.1524" layer="91"/>
+<label x="172.72" y="182.88" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PA0" class="0">
@@ -35899,10 +35918,10 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <label x="142.24" y="208.28" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R5" gate="R" pin="1"/>
-<junction x="391.16" y="254"/>
-<wire x1="391.16" y1="254" x2="384.81" y2="254" width="0.1524" layer="91"/>
-<label x="384.81" y="254" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="SJ2" gate="G$1" pin="1"/>
+<junction x="185.42" y="177.8"/>
+<wire x1="185.42" y1="177.8" x2="172.72" y2="177.8" width="0.1524" layer="91"/>
+<label x="172.72" y="177.8" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PA5" class="0">
@@ -35917,6 +35936,12 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <junction x="99.06" y="182.88"/>
 <wire x1="99.06" y1="182.88" x2="90.17" y2="182.88" width="0.1524" layer="91"/>
 <label x="90.17" y="182.88" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R5" gate="R" pin="1"/>
+<junction x="391.16" y="254"/>
+<wire x1="391.16" y1="254" x2="384.81" y2="254" width="0.1524" layer="91"/>
+<label x="384.81" y="254" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PA6" class="0">
@@ -35933,10 +35958,10 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <label x="124.46" y="180.34" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SJ2" gate="G$1" pin="1"/>
-<junction x="185.42" y="177.8"/>
-<wire x1="185.42" y1="177.8" x2="172.72" y2="177.8" width="0.1524" layer="91"/>
-<label x="172.72" y="177.8" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="R5" gate="D" pin="1"/>
+<junction x="391.16" y="236.22"/>
+<wire x1="391.16" y1="236.22" x2="384.81" y2="236.22" width="0.1524" layer="91"/>
+<label x="384.81" y="236.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -36080,10 +36105,21 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="81.28" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="CMP" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="CMP"/>
 <junction x="96.52" y="129.54"/>
+<wire x1="96.52" y1="129.54" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
+<label x="101.6" y="129.54" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C22" gate="G$1" pin="2"/>
+<junction x="187.96" y="132.08"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<junction x="177.8" y="132.08"/>
+<wire x1="187.96" y1="132.08" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
+<label x="170.18" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -36107,15 +36143,15 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <junction x="96.52" y="133.35"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <junction x="109.22" y="137.16"/>
-<pinref part="L1" gate="G$1" pin="1"/>
-<junction x="111.76" y="134.62"/>
 <wire x1="102.87" y1="134.62" x2="109.22" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="134.62" x2="111.76" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="137.16" x2="109.22" y2="134.62" width="0.1524" layer="91"/>
 <junction x="109.22" y="134.62"/>
 <wire x1="96.52" y1="133.35" x2="102.87" y2="133.35" width="0.1524" layer="91"/>
 <wire x1="102.87" y1="133.35" x2="102.87" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="137.16" x2="109.22" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="134.62" x2="111.76" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="1"/>
+<junction x="111.76" y="134.62"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -36125,6 +36161,15 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pinref part="U$5" gate="G$1" pin="BST"/>
 <junction x="96.52" y="137.16"/>
 <wire x1="99.06" y1="137.16" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="C22" gate="G$1" pin="1"/>
+<junction x="187.96" y="124.46"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+<junction x="187.96" y="120.65"/>
+<wire x1="187.96" y1="124.46" x2="187.96" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -14334,6 +14334,8 @@ Make a shield with ease, this package has all the named pins as well as the two 
 <pin name="CMP" x="6.35" y="-1.27" visible="pin" length="point" rot="R180"/>
 <pin name="EN" x="-6.35" y="-1.27" visible="pin" length="point"/>
 <pin name="BST" x="6.35" y="6.35" visible="pin" length="point" rot="R180"/>
+<text x="-5.08" y="-8.89" size="1.27" layer="94">&gt;NAME</text>
+<text x="-5.08" y="8.89" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>

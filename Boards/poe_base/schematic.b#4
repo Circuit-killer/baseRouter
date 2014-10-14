@@ -3536,7 +3536,6 @@ design rules under a new name.</description>
 </element>
 <element name="R10" library="SparkFun-Passives" package="0402-RES" value="1k" x="82.7532" y="53.0352" rot="R180"/>
 <element name="JP3" library="pinhead" package="2X08" value="" x="11.43" y="-8.89"/>
-<element name="JP2" library="pinhead" package="2X04" value="" x="6.35" y="-16.51"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -3613,8 +3612,6 @@ design rules under a new name.</description>
 <contactref element="JP3" pad="16"/>
 <contactref element="JP3" pad="4"/>
 <contactref element="JP3" pad="6"/>
-<contactref element="JP2" pad="1"/>
-<contactref element="JP2" pad="8"/>
 <wire x1="68.57" y1="67.325" x2="69.43" y2="67.325" width="0" layer="19" extent="1-1"/>
 <wire x1="61.5608" y1="58.7064" x2="68.57" y2="67.325" width="0" layer="19" extent="1-1"/>
 <wire x1="54.43" y1="67.325" x2="61.5608" y2="58.7064" width="0" layer="19" extent="1-1"/>
@@ -3669,9 +3666,7 @@ design rules under a new name.</description>
 <wire x1="11.7348" y1="7.9652" x2="22.135" y2="5.2672" width="0" layer="19" extent="16-16"/>
 <wire x1="7.765" y1="12.5172" x2="11.7348" y2="7.9652" width="0" layer="19" extent="16-16"/>
 <wire x1="20.32" y1="-7.62" x2="22.135" y2="5.2672" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="-15.24" x2="20.32" y2="-7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="-17.78" x2="10.16" y2="-15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="-7.62" x2="10.16" y2="-15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="-7.62" x2="20.32" y2="-7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="39.43" y1="67.325" x2="53.57" y2="67.325" width="0" layer="19" extent="1-1"/>
 <wire x1="38.57" y1="67.325" x2="39.43" y2="67.325" width="0" layer="19" extent="1-1"/>
@@ -3703,7 +3698,6 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="7"/>
 <contactref element="EXT" pad="2"/>
 <contactref element="JP3" pad="5"/>
-<contactref element="JP2" pad="7"/>
 <wire x1="62.3908" y1="47.5556" x2="61.5608" y2="53.6264" width="0" layer="19" extent="1-1"/>
 <wire x1="62.3128" y1="45.3584" x2="62.3908" y2="47.5556" width="0" layer="19" extent="1-1"/>
 <wire x1="59.3" y1="46.3808" x2="62.3128" y2="45.3584" width="0" layer="19" extent="1-1"/>
@@ -3716,7 +3710,6 @@ design rules under a new name.</description>
 <wire x1="12.6952" y1="46.4332" x2="13.9652" y2="46.4332" width="0" layer="19" extent="1-1"/>
 <wire x1="19.3548" y1="7.9652" x2="13.9652" y2="46.4332" width="0" layer="19" extent="1-16"/>
 <wire x1="7.62" y1="-10.16" x2="19.3548" y2="7.9652" width="0" layer="19" extent="16-16"/>
-<wire x1="10.16" y1="-17.78" x2="7.62" y2="-10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB_D_N">
 <contactref element="JP4" pad="D-"/>
@@ -3850,10 +3843,8 @@ design rules under a new name.</description>
 <contactref element="U$19" pad="23"/>
 <contactref element="S2" pad="2"/>
 <contactref element="S2" pad="1"/>
-<contactref element="JP2" pad="2"/>
 <wire x1="77.7494" y1="55.2704" x2="77.7494" y2="61.7728" width="0" layer="19" extent="1-1"/>
 <wire x1="17.7752" y1="46.4332" x2="77.7494" y2="55.2704" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="-15.24" x2="17.7752" y2="46.4332" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VSOURCE">
 <contactref element="C4" pad="+"/>
@@ -3954,16 +3945,12 @@ design rules under a new name.</description>
 <signal name="SKW_UART_TXD">
 <contactref element="U$19" pad="38"/>
 <contactref element="EXT" pad="16"/>
-<contactref element="JP2" pad="5"/>
 <wire x1="8.8852" y1="49.8182" x2="53.34" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="-17.78" x2="8.8852" y2="49.8182" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SKW_UART_RXD">
 <contactref element="U$19" pad="37"/>
 <contactref element="EXT" pad="14"/>
-<contactref element="JP2" pad="3"/>
 <wire x1="8.8852" y1="46.4332" x2="50.8" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="-17.78" x2="8.8852" y2="46.4332" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2S_SD">
 <contactref element="U$19" pad="11"/>
@@ -3980,9 +3967,7 @@ design rules under a new name.</description>
 <signal name="JUMPSTART">
 <contactref element="U$19" pad="25"/>
 <contactref element="S1" pad="2"/>
-<contactref element="JP2" pad="4"/>
 <wire x1="16.5052" y1="46.4332" x2="85.9282" y2="3.3274" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="-15.24" x2="16.5052" y2="46.4332" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SYSTEM_LED">
 <contactref element="U$19" pad="19"/>
@@ -4020,9 +4005,7 @@ design rules under a new name.</description>
 <signal name="POWER_CTRL">
 <contactref element="MCP1826" pad="1"/>
 <contactref element="R27" pad="2"/>
-<contactref element="JP2" pad="6"/>
 <wire x1="59.3" y1="42.5708" x2="62.2704" y2="43.5864" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="-15.24" x2="59.3" y2="42.5708" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_C">
 <contactref element="R5" pad="3"/>

@@ -30910,11 +30910,11 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2032" drill="0.3048">
-<clearance class="0" value="0.1524"/>
+<class number="0" name="default" width="0.127" drill="0.127">
+<clearance class="0" value="0.127"/>
 </class>
-<class number="1" name="power" width="0.2032" drill="0.3048">
-<clearance class="1" value="0.1524"/>
+<class number="1" name="power" width="0.4064" drill="1.1">
+<clearance class="1" value="0.2"/>
 </class>
 <class number="2" name="gnd" width="0.2032" drill="0.3048">
 <clearance class="2" value="0.1524"/>
@@ -30928,14 +30928,15 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <part name="R22" library="resistor" deviceset="R-EU_" device="R0402" value="10K"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0402" value="0.1uf"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="USB" device="-MICROB"/>
-<part name="C7" library="adafruit" deviceset="CPOL-US" device="E1.8-4" value="10uF"/>
+<part name="C7" library="adafruit" deviceset="CPOL-US" device="E5-10.5" value="220uf"/>
 <part name="U$4" library="BaseApp" deviceset="SI3402" device=""/>
 <part name="R8" library="BaseApp" deviceset="RESISTOR" device="" value="25.5K"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100nf/100V"/>
 <part name="R15" library="BaseApp" deviceset="RESISTOR" device="" value="45.3"/>
-<part name="C10" library="adafruit2" deviceset="CPOL-US" device="E2,5-6E" value="12uF/100V"/>
-<part name="C11" library="adafruit" deviceset="CPOL-US" device="E2-5" value="0.1uf/100V"/>
+<part name="C10" library="adafruit2" deviceset="CPOL-US" device="E2,5-6E" value="10uf/100V"/>
+<part name="C11" library="adafruit" deviceset="CPOL-US" device="E2-5" value="2.2uf/100V"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMC/DO-214AB"/>
+<part name="C12" library="adafruit2" deviceset="CPOL-US" device="E5-10.5" value="470uf/50V"/>
 <part name="R16" library="BaseApp" deviceset="RESISTOR" device="" value="R1"/>
 <part name="R17" library="BaseApp" deviceset="RESISTOR" device="" value="R2"/>
 <part name="C28" library="adafruit" deviceset="CPOL-US" device="E5-13" value="1000uf/10V"/>
@@ -31154,6 +31155,10 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <attribute name="VALUE" x="281.051" y="145.796" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D1" gate="G$1" x="309.88" y="160.02" rot="R90"/>
+<instance part="C12" gate="G$1" x="340.36" y="157.48" smashed="yes">
+<attribute name="NAME" x="333.756" y="158.115" size="1.778" layer="95"/>
+<attribute name="VALUE" x="344.551" y="153.416" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="R16" gate="G$1" x="360.68" y="162.56" rot="R270"/>
 <instance part="R17" gate="G$1" x="360.68" y="177.8" rot="R270"/>
 <instance part="C28" gate="G$1" x="370.84" y="170.18"/>
@@ -31318,7 +31323,11 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <pinref part="C7" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<wire x1="332.74" y1="149.86" x2="360.68" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="-"/>
+<wire x1="332.74" y1="149.86" x2="340.36" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="149.86" x2="340.36" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="149.86" x2="360.68" y2="149.86" width="0.1524" layer="91"/>
+<junction x="340.36" y="149.86"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="360.68" y1="149.86" x2="360.68" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="-"/>
@@ -31740,12 +31749,6 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <wire x1="147.32" y1="401.32" x2="160.02" y2="401.32" width="0.1524" layer="91"/>
 <label x="149.86" y="401.32" size="1.778" layer="95"/>
 </segment>
-<segment>
-<wire x1="448.31" y1="177.8" x2="443.23" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="U$23" gate="G$1" pin="1"/>
-<junction x="448.31" y="177.8"/>
-<label x="443.23" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="WAN_RX-" class="0">
 <segment>
@@ -31753,18 +31756,18 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <wire x1="147.32" y1="396.24" x2="160.02" y2="396.24" width="0.1524" layer="91"/>
 <label x="149.86" y="396.24" size="1.778" layer="95"/>
 </segment>
-<segment>
-<wire x1="448.31" y1="167.64" x2="443.23" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U$23" gate="G$1" pin="3"/>
-<junction x="448.31" y="167.64"/>
-<label x="443.23" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="WAN_TX+" class="0">
 <segment>
 <pinref part="U$19" gate="G$1" pin="WAN_PORT_TX+"/>
 <wire x1="147.32" y1="391.16" x2="160.02" y2="391.16" width="0.1524" layer="91"/>
 <label x="149.86" y="391.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="448.31" y1="177.8" x2="443.23" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="1"/>
+<junction x="448.31" y="177.8"/>
+<label x="443.23" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="448.31" y1="162.56" x2="443.23" y2="162.56" width="0.1524" layer="91"/>
@@ -31780,6 +31783,12 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <label x="149.86" y="386.08" size="1.778" layer="95"/>
 </segment>
 <segment>
+<wire x1="448.31" y1="167.64" x2="443.23" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="3"/>
+<junction x="448.31" y="167.64"/>
+<label x="443.23" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
 <wire x1="448.31" y1="152.4" x2="443.23" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="8"/>
 <junction x="448.31" y="152.4"/>
@@ -31793,10 +31802,10 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <label x="149.86" y="370.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="445.77" y1="93.98" x2="439.42" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$22" gate="G$1" pin="6"/>
-<junction x="445.77" y="93.98"/>
-<label x="439.42" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="445.77" y1="109.22" x2="439.42" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U$22" gate="G$1" pin="1"/>
+<junction x="445.77" y="109.22"/>
+<label x="439.42" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LAN_TX-" class="0">
@@ -31806,10 +31815,10 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <label x="149.86" y="365.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="445.77" y1="83.82" x2="439.42" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$22" gate="G$1" pin="8"/>
-<junction x="445.77" y="83.82"/>
-<label x="439.42" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="445.77" y1="99.06" x2="439.42" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U$22" gate="G$1" pin="3"/>
+<junction x="445.77" y="99.06"/>
+<label x="439.42" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+2V" class="1">
@@ -31884,10 +31893,13 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="276.86" y1="162.56" x2="309.88" y2="162.56" width="0.1524" layer="91"/>
 <junction x="276.86" y="162.56"/>
+<pinref part="C12" gate="G$1" pin="+"/>
 <wire x1="309.88" y1="162.56" x2="340.36" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="162.56" x2="340.36" y2="160.02" width="0.1524" layer="91"/>
 <junction x="309.88" y="162.56"/>
 <wire x1="340.36" y1="162.56" x2="340.36" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="182.88" x2="345.44" y2="182.88" width="0.1524" layer="91"/>
+<junction x="340.36" y="162.56"/>
 <pinref part="U$4" gate="G$1" pin="VPOSS"/>
 <wire x1="294.64" y1="109.22" x2="294.64" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="137.16" x2="345.44" y2="137.16" width="0.1524" layer="91"/>
@@ -32014,10 +32026,10 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <label x="149.86" y="381" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="445.77" y1="109.22" x2="439.42" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$22" gate="G$1" pin="1"/>
-<junction x="445.77" y="109.22"/>
-<label x="439.42" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="445.77" y1="93.98" x2="439.42" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U$22" gate="G$1" pin="6"/>
+<junction x="445.77" y="93.98"/>
+<label x="439.42" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LAN_RX-" class="0">
@@ -32027,10 +32039,10 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <label x="149.86" y="375.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="445.77" y1="99.06" x2="439.42" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$22" gate="G$1" pin="3"/>
-<junction x="445.77" y="99.06"/>
-<label x="439.42" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="445.77" y1="83.82" x2="439.42" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U$22" gate="G$1" pin="8"/>
+<junction x="445.77" y="83.82"/>
+<label x="439.42" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="I2S_WS" class="0">
@@ -32309,6 +32321,24 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <label x="453.39" y="300.99" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="3"/>
+<junction x="497.84" y="214.63"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="4"/>
+<junction x="518.16" y="214.63"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="5"/>
+<junction x="518.16" y="217.17"/>
+</segment>
+</net>
 <net name="N$41" class="0">
 <segment>
 <pinref part="L3" gate="G$1" pin="1"/>
@@ -32466,12 +32496,6 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <junction x="147.32" y="340.36"/>
 <wire x1="147.32" y1="340.36" x2="152.4" y2="340.36" width="0.1524" layer="91"/>
 <label x="152.4" y="340.36" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="EXT" gate="A" pin="11"/>
-<junction x="518.16" y="288.29"/>
-<wire x1="518.16" y1="288.29" x2="511.81" y2="288.29" width="0.1524" layer="91"/>
-<label x="511.81" y="288.29" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="I2S_MICIN" class="0">
@@ -32943,6 +32967,14 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="485.14" y1="149.86" x2="485.14" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="480.06" y1="149.86" x2="485.14" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SWK_SPI_MISO" class="0">
+<segment>
+<pinref part="EXT" gate="A" pin="11"/>
+<junction x="518.16" y="288.29"/>
+<wire x1="518.16" y1="288.29" x2="511.81" y2="288.29" width="0.1524" layer="91"/>
+<label x="511.81" y="288.29" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

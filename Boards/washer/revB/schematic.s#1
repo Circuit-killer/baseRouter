@@ -30910,13 +30910,13 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2032" drill="0.3048">
+<class number="0" name="default" width="0.8128" drill="0.3048">
 <clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="power" width="0.2032" drill="0.3048">
+<class number="1" name="power" width="0.8128" drill="0.3048">
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="gnd" width="0.2032" drill="0.3048">
+<class number="2" name="gnd" width="0.8128" drill="0.3048">
 <clearance class="2" value="0.1524"/>
 </class>
 </classes>
@@ -30933,8 +30933,8 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <part name="R8" library="BaseApp" deviceset="RESISTOR" device="" value="25.5K"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100nf/100V"/>
 <part name="R15" library="BaseApp" deviceset="RESISTOR" device="" value="45.3"/>
-<part name="C10" library="adafruit2" deviceset="CPOL-US" device="E2,5-6E" value="12uF/100V"/>
-<part name="C11" library="adafruit" deviceset="CPOL-US" device="E2-5" value="0.1uf/100V"/>
+<part name="C10" library="adafruit2" deviceset="CPOL-US" device="E2,5-6E" value="10uf/100V"/>
+<part name="C11" library="adafruit" deviceset="CPOL-US" device="E2-5" value="2.2uf/100V"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMC/DO-214AB"/>
 <part name="R16" library="BaseApp" deviceset="RESISTOR" device="" value="R1"/>
 <part name="R17" library="BaseApp" deviceset="RESISTOR" device="" value="R2"/>

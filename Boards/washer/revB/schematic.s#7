@@ -31762,6 +31762,12 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <wire x1="147.32" y1="396.24" x2="160.02" y2="396.24" width="0.1524" layer="91"/>
 <label x="149.86" y="396.24" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="448.31" y1="167.64" x2="443.23" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="3"/>
+<junction x="448.31" y="167.64"/>
+<label x="443.23" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="WAN_TX+" class="0">
 <segment>
@@ -31781,12 +31787,6 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <pinref part="U$19" gate="G$1" pin="WAN_PORT_TX-"/>
 <wire x1="147.32" y1="386.08" x2="160.02" y2="386.08" width="0.1524" layer="91"/>
 <label x="149.86" y="386.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="448.31" y1="167.64" x2="443.23" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U$23" gate="G$1" pin="3"/>
-<junction x="448.31" y="167.64"/>
-<label x="443.23" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="448.31" y1="152.4" x2="443.23" y2="152.4" width="0.1524" layer="91"/>

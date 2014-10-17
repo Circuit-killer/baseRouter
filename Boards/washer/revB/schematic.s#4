@@ -30928,7 +30928,7 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <part name="R22" library="resistor" deviceset="R-EU_" device="R0402" value="10K"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0402" value="0.1uf"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="USB" device="-MICROB"/>
-<part name="C7" library="adafruit" deviceset="CPOL-US" device="E5-10.5" value="220uf"/>
+<part name="C7" library="adafruit" deviceset="CPOL-US" device="E1.8-4" value="10uF"/>
 <part name="U$4" library="BaseApp" deviceset="SI3402" device=""/>
 <part name="R8" library="BaseApp" deviceset="RESISTOR" device="" value="25.5K"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100nf/100V"/>

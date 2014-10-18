@@ -13456,7 +13456,7 @@ Make a shield with ease, this package has all the named pins as well as the two 
 <wire x1="-5.4" y1="-1.97" x2="0.6" y2="-1.97" width="0.127" layer="21"/>
 <wire x1="15.6" y1="-1.97" x2="30.6" y2="-1.97" width="0.127" layer="21"/>
 <text x="16.6" y="-3.97" size="1.27" layer="21">&gt;NAME</text>
-<text x="0.6" y="-12.97" size="1.27" layer="21">VALUE</text>
+<text x="0.6" y="-12.97" size="1.27" layer="21">&gt;VALUE</text>
 </package>
 <package name="BF3-31XX_SMD_PAD">
 <wire x1="3.683" y1="3.937" x2="3.683" y2="1.27" width="0.1524" layer="51"/>

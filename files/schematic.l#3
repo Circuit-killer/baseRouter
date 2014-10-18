@@ -14688,7 +14688,9 @@ Make a shield with ease, this package has all the named pins as well as the two 
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-1.27" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-6.35" x2="-5.08" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-6.35" x2="-1.27" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-6.35" x2="-3.81" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-6.35" x2="-5.08" y2="-6.35" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-6.35" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-1.27" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
@@ -14711,8 +14713,12 @@ Make a shield with ease, this package has all the named pins as well as the two 
 <pin name="CMP" x="6.35" y="-1.27" visible="pin" length="point" rot="R180"/>
 <pin name="EN" x="-6.35" y="-1.27" visible="pin" length="point"/>
 <pin name="BST" x="6.35" y="6.35" visible="pin" length="point" rot="R180"/>
-<text x="-5.08" y="-8.89" size="1.27" layer="94">&gt;NAME</text>
+<text x="0" y="-8.89" size="1.27" layer="94">&gt;NAME</text>
 <text x="-5.08" y="8.89" size="1.27" layer="94">&gt;VALUE</text>
+<wire x1="-3.81" y1="-6.35" x2="-3.81" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-6.35" x2="-1.27" y2="-8.89" width="0.254" layer="94"/>
+<pin name="EXPAD" x="-3.81" y="-8.89" length="point" rot="R270"/>
+<pin name="E_H" x="-1.27" y="-8.89" length="point" rot="R270"/>
 </symbol>
 <symbol name="ZD6">
 <wire x1="-3.048" y1="-0.762" x2="-2.54" y2="-0.762" width="0.254" layer="94" curve="126.869898" cap="flat"/>

@@ -25856,36 +25856,40 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <circle x="-4.248" y="1.778" radius="0.282840625" width="0.127" layer="21"/>
 <text x="-1.648" y="-3.822" size="0.8128" layer="21">&gt;NAME</text>
 <text x="-1.248" y="2.778" size="0.8128" layer="21">&gt;VALUE</text>
+<smd name="P$9" x="0" y="0" dx="2.7" dy="3.7" layer="1"/>
+<pad name="P$10" x="0" y="0" drill="0.8"/>
+<smd name="P$11" x="0" y="0" dx="2.7" dy="3.7" layer="16" rot="R180"/>
 </package>
 <package name="SOIC-16">
-<smd name="P$1" x="-3.175" y="3.81" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$2" x="-3.175" y="2.54" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$3" x="-3.175" y="1.27" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$4" x="-3.175" y="0" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$5" x="-3.175" y="-1.27" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$6" x="-3.175" y="-2.54" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$7" x="-3.175" y="-3.81" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$8" x="-3.175" y="-5.08" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$9" x="3.683" y="-5.08" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$10" x="3.683" y="-3.81" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$11" x="3.683" y="-2.54" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$12" x="3.683" y="-1.27" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$13" x="3.683" y="0" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$14" x="3.683" y="1.27" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$15" x="3.683" y="2.54" dx="1.905" dy="0.635" layer="1"/>
-<smd name="P$16" x="3.683" y="3.81" dx="1.905" dy="0.635" layer="1"/>
-<wire x1="-1.27" y1="4.445" x2="1.905" y2="4.445" width="0.127" layer="21"/>
-<wire x1="1.905" y1="4.445" x2="2.54" y2="3.81" width="0.127" layer="21" curve="-90"/>
-<wire x1="2.54" y1="3.81" x2="2.54" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-5.08" x2="1.905" y2="-5.715" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.905" y1="-5.715" x2="-1.27" y2="-5.715" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-5.715" x2="-1.905" y2="-5.08" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.905" y1="-5.08" x2="-1.905" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="3.81" x2="-1.27" y2="4.445" width="0.127" layer="21" curve="-90"/>
-<circle x="-1.27" y="3.81" radius="0.635" width="0.127" layer="21"/>
-<circle x="-5.08" y="3.81" radius="0.635" width="0.127" layer="21"/>
-<text x="-2.54" y="-7.62" size="1.27" layer="21">&gt;NAME</text>
-<text x="-3.175" y="5.08" size="1.27" layer="21">&gt;VALUE</text>
+<smd name="P$1" x="-4.445" y="3.81" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$2" x="-4.445" y="2.54" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$3" x="-4.445" y="1.27" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$4" x="-4.445" y="0" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$5" x="-4.445" y="-1.27" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$6" x="-4.445" y="-2.54" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$7" x="-4.445" y="-3.81" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$8" x="-4.445" y="-5.08" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$9" x="4.318" y="-5.08" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$10" x="4.318" y="-3.81" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$11" x="4.318" y="-2.54" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$12" x="4.318" y="-1.27" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$13" x="4.318" y="0" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$14" x="4.318" y="1.27" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$15" x="4.318" y="2.54" dx="1.905" dy="0.635" layer="1"/>
+<smd name="P$16" x="4.318" y="3.81" dx="1.905" dy="0.635" layer="1"/>
+<wire x1="-2.54" y1="4.445" x2="2.54" y2="4.445" width="0.127" layer="21"/>
+<wire x1="3.175" y1="3.937" x2="3.175" y2="3.81" width="0.127" layer="21"/>
+<wire x1="3.175" y1="3.81" x2="3.175" y2="-4.953" width="0.127" layer="21"/>
+<wire x1="2.413" y1="-5.715" x2="-2.54" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-5.715" x2="-3.302" y2="-5.08" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3.302" y1="-5.08" x2="-3.302" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-3.302" y1="3.81" x2="-2.54" y2="4.445" width="0.127" layer="21" curve="-90"/>
+<circle x="-2.667" y="3.81" radius="0.635" width="0.127" layer="21"/>
+<circle x="-6.35" y="3.937" radius="0.635" width="0.127" layer="21"/>
+<text x="-3.81" y="-7.62" size="1.27" layer="21">&gt;NAME</text>
+<text x="-4.445" y="5.08" size="1.27" layer="21">&gt;VALUE</text>
+<wire x1="2.54" y1="4.445" x2="3.175" y2="3.81" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.413" y1="-5.715" x2="3.175" y2="-4.953" width="0.127" layer="21" curve="90"/>
 </package>
 <package name="RJ45-8">
 <wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
@@ -26091,7 +26095,9 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-1.27" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-6.35" x2="-5.08" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-6.35" x2="-1.27" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-6.35" x2="-3.81" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-6.35" x2="-5.08" y2="-6.35" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-6.35" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-1.27" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
@@ -26114,8 +26120,12 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <pin name="CMP" x="6.35" y="-1.27" visible="pin" length="point" rot="R180"/>
 <pin name="EN" x="-6.35" y="-1.27" visible="pin" length="point"/>
 <pin name="BST" x="6.35" y="6.35" visible="pin" length="point" rot="R180"/>
-<text x="-5.08" y="-8.89" size="1.27" layer="94">&gt;NAME</text>
+<text x="0" y="-8.89" size="1.27" layer="94">&gt;NAME</text>
 <text x="-5.08" y="8.89" size="1.27" layer="94">&gt;VALUE</text>
+<wire x1="-3.81" y1="-6.35" x2="-3.81" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-6.35" x2="-1.27" y2="-8.89" width="0.254" layer="94"/>
+<pin name="EXPAD" x="-3.81" y="-8.89" length="point" rot="R270"/>
+<pin name="E_H" x="-1.27" y="-8.89" length="point" rot="R270"/>
 </symbol>
 <symbol name="10/100BASET-SINGLEPORT">
 <wire x1="-13.97" y1="13.97" x2="-10.16" y2="13.97" width="0.254" layer="94"/>
@@ -27652,6 +27662,8 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <connect gate="G$1" pin="BST" pad="P$8"/>
 <connect gate="G$1" pin="CMP" pad="P$6"/>
 <connect gate="G$1" pin="EN" pad="P$7"/>
+<connect gate="G$1" pin="EXPAD" pad="P$9"/>
+<connect gate="G$1" pin="E_H" pad="P$10"/>
 <connect gate="G$1" pin="FB" pad="P$5"/>
 <connect gate="G$1" pin="GND" pad="P$4"/>
 <connect gate="G$1" pin="IN" pad="P$1"/>
@@ -28714,11 +28726,11 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 </classes>
 <parts>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C29" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP"/>
+<part name="C29" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP"/>
 <part name="MCP1826" library="BaseApp" deviceset="MCP1825T" device="" value="mcp1826"/>
 <part name="GND26" library="SparkFun" deviceset="GND" device=""/>
-<part name="R22" library="resistor" deviceset="R-EU_" device="R0402" value="10K"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0402" value="0.1uf"/>
+<part name="R22" library="resistor" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="0.1uf"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="USB" device="-MICROB"/>
 <part name="C7" library="adafruit" deviceset="CPOL-US" device="E5-10.5" value="220uF"/>
 <part name="U$19" library="BaseApp" deviceset="SKW71" device="-" value="SKW71-"/>
@@ -28741,15 +28753,15 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <part name="D5" library="SparkFun-DiscreteSemi" deviceset="B340A" device="" value="BA340A"/>
 <part name="B1" library="rectifier" deviceset="DB?*G" device="LS20" technology="1"/>
 <part name="D6" library="SparkFun-DiscreteSemi" deviceset="B340A" device="" value="BA340A"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="1k"/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10k"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="0.1uf"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="0.1uf"/>
 <part name="USB1" library="schematic" deviceset="USB_SHIELD" device="USB_A_VERTICAL"/>
 <part name="U$3" library="schematic" deviceset="PUSBMXX4-TL" device=""/>
-<part name="L3" library="SparkFun-Passives" deviceset="INDUCTOR" device="0402"/>
-<part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="L3" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603"/>
+<part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="FRAME1" library="frames" deviceset="FRAME_C_L" device=""/>
-<part name="R27" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
+<part name="R27" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="DL1" library="BaseApp" deviceset="DUOLED-1X2" device=""/>
 <part name="$$U$2" library="BaseApp" deviceset="LIGHT_PIPE" device=""/>
@@ -28762,14 +28774,14 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="DL4" library="BaseApp" deviceset="DUOLED-1X2" device=""/>
 <part name="$$U$4" library="BaseApp" deviceset="LIGHT_PIPE" device=""/>
-<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="91k"/>
-<part name="R23" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="20k"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="91k"/>
+<part name="R23" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="20k"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="U$5" library="schematic" deviceset="SKY87608" device=""/>
 <part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="100k"/>
-<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="56pF"/>
-<part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="10nF"/>
-<part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="3k"/>
+<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="56pF"/>
+<part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10nF"/>
+<part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="3k"/>
 <part name="U$7" library="SparkFun-Passives" deviceset="INDUCTOR" device="BOURNS_SRN6045" value="6.8uH 0302"/>
 <part name="U$9" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$11" library="adafruit" deviceset="FIDUCIAL" device=""/>
@@ -28786,14 +28798,14 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="1k"/>
 <part name="S2" library="switch-omron" deviceset="10-XX" device=""/>
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="1k"/>
-<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R10" library="SparkFun" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R11" library="SparkFun" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R12" library="SparkFun" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R13" library="SparkFun" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R20" library="SparkFun" deviceset="RESISTOR" device="0402-RES"/>
+<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R10" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R11" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R12" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R13" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R20" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
 <part name="U$2" library="BaseApp" deviceset="VCC" device="" value="+2v"/>
 <part name="R42" library="BaseApp" deviceset="RESISTOR" device="" value="75R"/>
 <part name="R43" library="BaseApp" deviceset="RESISTOR" device="" value="75R"/>
@@ -28819,6 +28831,8 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <part name="C12" library="BaseApp" deviceset="CAPACITOR" device="" value="1nF,2kV"/>
 <part name="C2" library="resistor" deviceset="CPOL-EU" device="E3.5-10" value="470uF, 25V"/>
 <part name="U$4" library="BaseApp" deviceset="UFL" device=""/>
+<part name="R17" library="BaseApp" deviceset="RESISTOR" device="" value="22"/>
+<part name="R18" library="BaseApp" deviceset="RESISTOR" device="" value="22"/>
 </parts>
 <sheets>
 <sheet>
@@ -28833,7 +28847,7 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <text x="148.59" y="78.74" size="2.54" layer="94">DC Power IN</text>
 <text x="157.48" y="142.24" size="6.4516" layer="94">Power Supply</text>
 <text x="127" y="137.16" size="2.54" layer="94">DC 5V-6V</text>
-<text x="15.24" y="121.92" size="1.778" layer="94">DC 6V - 40V</text>
+<text x="15.24" y="121.92" size="1.778" layer="94">DC 6V - 36V</text>
 <text x="189.23" y="49.53" size="2.54" layer="94">DC 3V3</text>
 <text x="204.47" y="64.77" size="2.54" layer="94" rot="R180">Power ORing</text>
 <text x="209.55" y="110.49" size="2.54" layer="94" rot="R180">P Channel MOSFET</text>
@@ -29024,6 +29038,8 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <instance part="C12" gate="G$1" x="302.26" y="85.09"/>
 <instance part="C2" gate="G$1" x="322.58" y="139.7" rot="R180"/>
 <instance part="U$4" gate="G$1" x="525.78" y="356.87"/>
+<instance part="R17" gate="G$1" x="73.66" y="48.26"/>
+<instance part="R18" gate="G$1" x="73.66" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -29223,6 +29239,13 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <junction x="97.79" y="119.38"/>
 <wire x1="97.79" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
 <label x="96.52" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$5" gate="G$1" pin="EXPAD"/>
+<junction x="86.36" y="121.92"/>
+<pinref part="U$5" gate="G$1" pin="E_H"/>
+<junction x="88.9" y="121.92"/>
+<wire x1="86.36" y1="121.92" x2="88.9" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="121.92" x2="97.79" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="97.79" y1="121.92" x2="97.79" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -29382,30 +29405,30 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 </net>
 <net name="USB_D_N" class="0">
 <segment>
-<wire x1="50.8" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="D-"/>
-<label x="55.88" y="38.1" size="1.016" layer="95" xref="yes"/>
-<junction x="50.8" y="38.1"/>
-</segment>
-<segment>
 <pinref part="JP2" gate="A" pin="8"/>
 <junction x="467.36" y="293.37"/>
 <wire x1="467.36" y1="293.37" x2="473.71" y2="293.37" width="0.1524" layer="91"/>
 <label x="473.71" y="293.37" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<junction x="78.74" y="40.64"/>
+<wire x1="78.74" y1="40.64" x2="82.55" y2="40.64" width="0.1524" layer="91"/>
+<label x="82.55" y="40.64" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="USB_D_P" class="0">
-<segment>
-<wire x1="50.8" y1="40.64" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="D+"/>
-<label x="55.88" y="40.64" size="1.016" layer="95" xref="yes"/>
-<junction x="50.8" y="40.64"/>
-</segment>
 <segment>
 <pinref part="JP2" gate="A" pin="7"/>
 <junction x="459.74" y="293.37"/>
 <wire x1="459.74" y1="293.37" x2="453.39" y2="293.37" width="0.1524" layer="91"/>
 <label x="453.39" y="293.37" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<junction x="78.74" y="48.26"/>
+<wire x1="78.74" y1="48.26" x2="82.55" y2="48.26" width="0.1524" layer="91"/>
+<label x="82.55" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="WAN_RX+" class="0">
@@ -29598,14 +29621,13 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <segment>
 <pinref part="USB1" gate="G$1" pin="3"/>
 <junction x="485.14" y="233.68"/>
-<wire x1="485.14" y1="233.68" x2="495.3" y2="233.68" width="0.1524" layer="91"/>
 <label x="538.48" y="233.68" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="2"/>
-<junction x="497.84" y="217.17"/>
-<wire x1="495.3" y1="233.68" x2="538.48" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="497.84" y1="217.17" x2="495.3" y2="217.17" width="0.1524" layer="91"/>
-<wire x1="495.3" y1="217.17" x2="495.3" y2="233.68" width="0.1524" layer="91"/>
-<junction x="495.3" y="233.68"/>
+<wire x1="485.14" y1="233.68" x2="497.84" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="1"/>
+<junction x="497.84" y="219.71"/>
+<wire x1="497.84" y1="233.68" x2="538.48" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="219.71" x2="497.84" y2="233.68" width="0.1524" layer="91"/>
+<junction x="497.84" y="233.68"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="4"/>
@@ -29618,13 +29640,14 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <segment>
 <pinref part="USB1" gate="G$1" pin="2"/>
 <junction x="485.14" y="231.14"/>
-<wire x1="485.14" y1="231.14" x2="497.84" y2="231.14" width="0.1524" layer="91"/>
 <label x="538.48" y="231.14" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="1"/>
-<junction x="497.84" y="219.71"/>
-<wire x1="497.84" y1="231.14" x2="538.48" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="497.84" y1="219.71" x2="497.84" y2="231.14" width="0.1524" layer="91"/>
-<junction x="497.84" y="231.14"/>
+<wire x1="485.14" y1="231.14" x2="495.3" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="2"/>
+<junction x="497.84" y="217.17"/>
+<wire x1="495.3" y1="231.14" x2="538.48" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="217.17" x2="495.3" y2="217.17" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="217.17" x2="495.3" y2="231.14" width="0.1524" layer="91"/>
+<junction x="495.3" y="231.14"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="6"/>
@@ -30607,6 +30630,27 @@ http://www.ts.com.tw/db/pictures/modules/PDT/PDT060207001/DBLS201G.pdf</descript
 <junction x="505.46" y="356.87"/>
 <wire x1="528.32" y1="361.95" x2="505.46" y2="361.95" width="0.1524" layer="91"/>
 <wire x1="505.46" y1="361.95" x2="505.46" y2="356.87" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="JP4" gate="G$1" pin="D-"/>
+<junction x="50.8" y="38.1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<junction x="68.58" y="40.64"/>
+<wire x1="50.8" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="38.1" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<junction x="68.58" y="48.26"/>
+<wire x1="68.58" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="48.26" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="D+"/>
+<junction x="50.8" y="40.64"/>
+<wire x1="66.04" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

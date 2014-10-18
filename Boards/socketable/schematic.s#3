@@ -23167,6 +23167,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP11" library="testpad" deviceset="TP" device="B2,54"/>
 <part name="TP12" library="testpad" deviceset="TP" device="B2,54"/>
 <part name="TP13" library="testpad" deviceset="TP" device="B2,54"/>
+<part name="TP14" library="testpad" deviceset="TP" device="B2,54"/>
 </parts>
 <sheets>
 <sheet>
@@ -23387,6 +23388,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP11" gate="G$1" x="511.81" y="88.9"/>
 <instance part="TP12" gate="G$1" x="516.89" y="156.21"/>
 <instance part="TP13" gate="G$1" x="527.05" y="156.21"/>
+<instance part="TP14" gate="G$1" x="516.89" y="88.9"/>
 </instances>
 <busses>
 </busses>
@@ -23424,6 +23426,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C62" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="G$1" pin="GND"/>
 <wire x1="48.26" y1="403.86" x2="48.26" y2="401.32" width="0.1524" layer="91"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<junction x="40.64" y="401.32"/>
+<wire x1="40.64" y1="401.32" x2="48.26" y2="401.32" width="0.1524" layer="91"/>
+<junction x="48.26" y="401.32"/>
 </segment>
 <segment>
 <pinref part="U$19" gate="G$1" pin="GND@1"/>
@@ -23697,6 +23703,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="459.74" y1="379.73" x2="459.74" y2="373.38" width="0.1524" layer="91"/>
 <label x="459.74" y="373.38" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TP14" gate="G$1" pin="TP"/>
+<junction x="516.89" y="86.36"/>
+<wire x1="516.89" y1="86.36" x2="516.89" y2="82.55" width="0.1524" layer="91"/>
+<label x="516.89" y="82.55" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="VDD" class="0">
 <segment>
@@ -23724,13 +23736,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="U$19" gate="G$1" pin="VDD_3.3V"/>
-<wire x1="86.36" y1="406.4" x2="55.88" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="406.4" x2="67.31" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="67.31" y1="406.4" x2="55.88" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="406.4" x2="55.88" y2="411.48" width="0.1524" layer="91"/>
 <pinref part="C62" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="411.48" x2="55.88" y2="414.02" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="411.48" x2="55.88" y2="411.48" width="0.1524" layer="91"/>
 <junction x="55.88" y="411.48"/>
 <label x="55.88" y="414.02" size="1.016" layer="95" xref="yes"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<junction x="67.31" y="410.21"/>
+<wire x1="67.31" y1="410.21" x2="67.31" y2="406.4" width="0.1524" layer="91"/>
+<junction x="67.31" y="406.4"/>
 </segment>
 <segment>
 <pinref part="U$19" gate="G$1" pin="VDD_3.3V@1"/>

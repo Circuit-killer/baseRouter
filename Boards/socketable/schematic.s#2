@@ -23139,7 +23139,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$24" library="schematic" deviceset="RJ45-8" device="" value="RJ45-8"/>
 <part name="U$25" library="schematic" deviceset="RJ45-8" device="" value="RJ45-8"/>
 <part name="U$1" library="BaseApp" deviceset="ISOLATION_DIODE" device="-TT8U1CT"/>
-<part name="U$6" library="BaseApp" deviceset="RF-SMA" device=""/>
+<part name="SMA" library="BaseApp" deviceset="RF-SMA" device=""/>
 <part name="U$8" library="schematic" deviceset="21000MPOE" device=""/>
 <part name="C1" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1uF, 50V"/>
 <part name="C9" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1uF, 50V"/>
@@ -23167,6 +23167,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP11" library="testpad" deviceset="TP" device="B2,54"/>
 <part name="TP12" library="testpad" deviceset="TP" device="B2,54"/>
 <part name="TP13" library="testpad" deviceset="TP" device="B2,54"/>
+<part name="TP14" library="testpad" deviceset="TP" device="B2,54"/>
 </parts>
 <sheets>
 <sheet>
@@ -23359,7 +23360,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="U$24" gate="G$1" x="530.86" y="104.14"/>
 <instance part="U$25" gate="G$1" x="529.59" y="172.72"/>
 <instance part="U$1" gate="G$1" x="193.04" y="85.09"/>
-<instance part="U$6" gate="G$1" x="502.92" y="356.87"/>
+<instance part="SMA" gate="G$1" x="502.92" y="356.87"/>
 <instance part="U$8" gate="G$1" x="347.98" y="130.81" rot="R90"/>
 <instance part="C1" gate="G$1" x="280.67" y="109.22"/>
 <instance part="C9" gate="G$1" x="295.91" y="109.22"/>
@@ -23387,6 +23388,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP11" gate="G$1" x="511.81" y="88.9"/>
 <instance part="TP12" gate="G$1" x="516.89" y="156.21"/>
 <instance part="TP13" gate="G$1" x="527.05" y="156.21"/>
+<instance part="TP14" gate="G$1" x="516.89" y="88.9"/>
 </instances>
 <busses>
 </busses>
@@ -23424,6 +23426,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C62" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="G$1" pin="GND"/>
 <wire x1="48.26" y1="403.86" x2="48.26" y2="401.32" width="0.1524" layer="91"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<junction x="40.64" y="401.32"/>
+<wire x1="40.64" y1="401.32" x2="48.26" y2="401.32" width="0.1524" layer="91"/>
+<junction x="48.26" y="401.32"/>
 </segment>
 <segment>
 <pinref part="U$19" gate="G$1" pin="GND@1"/>
@@ -23674,15 +23680,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="528.32" y="351.79"/>
 <wire x1="528.32" y1="354.33" x2="528.32" y2="351.79" width="0.1524" layer="91"/>
 <wire x1="528.32" y1="351.79" x2="528.32" y2="341.63" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="GND"/>
+<pinref part="SMA" gate="G$1" pin="GND"/>
 <junction x="505.46" y="354.33"/>
-<pinref part="U$6" gate="G$1" pin="GND@1"/>
+<pinref part="SMA" gate="G$1" pin="GND@1"/>
 <junction x="505.46" y="351.79"/>
 <wire x1="505.46" y1="354.33" x2="505.46" y2="351.79" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="GND@2"/>
+<pinref part="SMA" gate="G$1" pin="GND@2"/>
 <junction x="505.46" y="349.25"/>
 <wire x1="505.46" y1="351.79" x2="505.46" y2="349.25" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="GND@3"/>
+<pinref part="SMA" gate="G$1" pin="GND@3"/>
 <junction x="505.46" y="346.71"/>
 <wire x1="505.46" y1="349.25" x2="505.46" y2="346.71" width="0.1524" layer="91"/>
 <wire x1="505.46" y1="346.71" x2="505.46" y2="341.63" width="0.1524" layer="91"/>
@@ -23696,6 +23702,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="459.74" y="379.73"/>
 <wire x1="459.74" y1="379.73" x2="459.74" y2="373.38" width="0.1524" layer="91"/>
 <label x="459.74" y="373.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TP14" gate="G$1" pin="TP"/>
+<junction x="516.89" y="86.36"/>
+<wire x1="516.89" y1="86.36" x2="516.89" y2="82.55" width="0.1524" layer="91"/>
+<label x="516.89" y="82.55" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -25031,7 +25043,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$4" gate="G$1" pin="SIG"/>
 <junction x="528.32" y="356.87"/>
 <wire x1="528.32" y1="356.87" x2="528.32" y2="361.95" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="1"/>
+<pinref part="SMA" gate="G$1" pin="1"/>
 <junction x="505.46" y="356.87"/>
 <wire x1="528.32" y1="361.95" x2="505.46" y2="361.95" width="0.1524" layer="91"/>
 <wire x1="505.46" y1="361.95" x2="505.46" y2="356.87" width="0.1524" layer="91"/>

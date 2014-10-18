@@ -8,7 +8,7 @@
 </settings>
 <grid distance="6" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,11 +28,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -92,7 +92,7 @@
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="4" fill="1" visible="no" active="yes"/>
 <layer number="120" name="120" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -2705,7 +2705,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.432" y="24.1016" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="SMA" library="BaseApp" package="BU-SMA-H" value="RF-SMA" x="10.8204" y="5.6388" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.1948" y="9.779" size="1.27" layer="25"/>
+<attribute name="NAME" x="13.5382" y="9.652" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="5.1054" y="8.8138" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U$8" library="schematic" package="21000MPOE" value="21000MPOE" x="78.0288" y="38.7096" smashed="yes" rot="R90"/>
@@ -2750,7 +2750,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="65.9892" y="61.214" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="UFL" library="BaseApp" package="UFL" value="UFL" x="10.9728" y="18.9992" smashed="yes">
-<attribute name="NAME" x="9.4234" y="15.1892" size="1.27" layer="25"/>
+<attribute name="NAME" x="8.4328" y="17.0434" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="R17" library="BaseApp" package="R0603" value="22" x="15.24" y="23.4696" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.9766" y="18.3896" size="1.27" layer="25" font="vector" rot="R90"/>

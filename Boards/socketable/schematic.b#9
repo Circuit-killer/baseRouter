@@ -2517,7 +2517,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="63.996" y="35.6394" size="1.016" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R2" library="BaseApp" package="R0603" value="10k" x="26.3404" y="30.2768" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.7054" y="28.2448" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="25.4006" y="28.702" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="28.4994" y="28.2448" size="1.016" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C8" library="BaseApp" package="C0603" value="0.1uf" x="23.7296" y="26.2536" smashed="yes">
@@ -2606,15 +2606,15 @@ design rules under a new name.</description>
 <element name="U$16" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="91.2876" y="65.8368"/>
 <element name="U$17" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="90.678" y="3.6576"/>
 <element name="JP2" library="pinhead" package="2X05" value="" x="15.24" y="27.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.59" y="24.765" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="7.239" y="29.5148" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="21.59" y="32.385" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="SERIAL" library="pinhead" package="1X04" value="" x="12.2936" y="66.2432" smashed="yes">
 <attribute name="NAME" x="10.3378" y="68.072" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="7.2136" y="63.0682" size="1.27" layer="27"/>
 </element>
-<element name="EXT" library="pinhead" package="2X08" value="" x="19.05" y="58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="29.21" y="55.245" size="1.27" layer="25" ratio="10" rot="R180"/>
+<element name="JP1" library="pinhead" package="2X08" value="" x="19.05" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.239" y="60.1472" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="29.21" y="62.865" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="WPS" library="schematic" package="BF3-31XX_SMD_PAD" value="31-XX-SMD" x="23.0124" y="11.8872" smashed="yes">
@@ -3278,7 +3278,7 @@ design rules under a new name.</description>
 <contactref element="C89" pad="2"/>
 <contactref element="SKW" pad="31"/>
 <contactref element="SERIAL" pad="4"/>
-<contactref element="EXT" pad="2"/>
+<contactref element="JP1" pad="2"/>
 <wire x1="38.2688" y1="59.4872" x2="39.8276" y2="59.4872" width="0.8128" layer="1"/>
 <wire x1="39.8276" y1="59.4872" x2="40.0812" y2="59.7408" width="0.8128" layer="1"/>
 <wire x1="40.0812" y1="59.7408" x2="43.434" y2="59.7408" width="0.8128" layer="1"/>
@@ -3737,7 +3737,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="I2S_WS">
 <contactref element="SKW" pad="5"/>
-<contactref element="EXT" pad="8"/>
+<contactref element="JP1" pad="8"/>
 <wire x1="31.242" y1="49.3776" x2="29.5656" y2="49.3776" width="0.2032" layer="1"/>
 <wire x1="29.5656" y1="49.3776" x2="29.2608" y2="49.0728" width="0.2032" layer="1"/>
 <wire x1="29.2608" y1="49.0728" x2="29.2608" y2="47.7012" width="0.2032" layer="1"/>
@@ -3755,7 +3755,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="I2S_MCK">
 <contactref element="SKW" pad="9"/>
-<contactref element="EXT" pad="6"/>
+<contactref element="JP1" pad="6"/>
 <wire x1="21.336" y1="49.3776" x2="26.3652" y2="49.3776" width="0.2032" layer="1"/>
 <wire x1="26.3652" y1="49.3776" x2="26.67" y2="49.0728" width="0.2032" layer="1"/>
 <wire x1="26.67" y1="49.0728" x2="26.67" y2="47.7012" width="0.2032" layer="1"/>
@@ -3810,7 +3810,7 @@ design rules under a new name.</description>
 <signal name="RESET_CONFIG">
 <contactref element="SKW" pad="23"/>
 <contactref element="S2" pad="1"/>
-<contactref element="EXT" pad="14"/>
+<contactref element="JP1" pad="14"/>
 <wire x1="17.8308" y1="49.3776" x2="17.8308" y2="49.2252" width="0.2032" layer="1"/>
 <wire x1="17.8308" y1="49.2252" x2="17.8308" y2="47.7012" width="0.2032" layer="1"/>
 <wire x1="15.24" y1="49.3776" x2="17.8308" y2="49.3776" width="0.2032" layer="1"/>
@@ -4047,7 +4047,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="I2S_SD">
 <contactref element="SKW" pad="11"/>
-<contactref element="EXT" pad="5"/>
+<contactref element="JP1" pad="5"/>
 <wire x1="25.4508" y1="46.0248" x2="25.4508" y2="47.5488" width="0.2032" layer="1"/>
 <wire x1="25.7556" y1="46.0248" x2="25.4508" y2="46.0248" width="0.2032" layer="1"/>
 <wire x1="25.6032" y1="46.0248" x2="25.7556" y2="46.0248" width="0.2032" layer="16"/>
@@ -4063,7 +4063,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="I2S_CK">
 <contactref element="SKW" pad="13"/>
-<contactref element="EXT" pad="7"/>
+<contactref element="JP1" pad="7"/>
 <wire x1="25.7556" y1="45.2628" x2="24.384" y2="45.2628" width="0.2032" layer="1"/>
 <wire x1="24.384" y1="45.2628" x2="24.0792" y2="45.5676" width="0.2032" layer="1"/>
 <wire x1="24.0792" y1="45.5676" x2="24.0792" y2="47.5488" width="0.2032" layer="1"/>
@@ -4083,7 +4083,7 @@ design rules under a new name.</description>
 <signal name="JUMPSTART">
 <contactref element="SKW" pad="25"/>
 <contactref element="WPS" pad="P$2"/>
-<contactref element="EXT" pad="16"/>
+<contactref element="JP1" pad="16"/>
 <wire x1="25.2624" y1="11.8872" x2="24.9936" y2="11.8872" width="0.2032" layer="1"/>
 <wire x1="24.9936" y1="11.8872" x2="23.622" y2="13.2588" width="0.2032" layer="1"/>
 <wire x1="23.622" y1="13.2588" x2="23.622" y2="16.002" width="0.2032" layer="1"/>
@@ -4209,7 +4209,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="GPIO_23">
 <contactref element="SKW" pad="3"/>
-<contactref element="EXT" pad="9"/>
+<contactref element="JP1" pad="9"/>
 <wire x1="30.48" y1="46.0248" x2="30.48" y2="47.5488" width="0.2032" layer="1"/>
 <wire x1="36.4236" y1="46.0248" x2="30.48" y2="46.0248" width="0.2032" layer="1"/>
 <wire x1="36.576" y1="46.1772" x2="36.4236" y2="46.0248" width="0.2032" layer="16"/>
@@ -4225,7 +4225,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="SKW_SPI_MOSI">
 <contactref element="SKW" pad="32"/>
-<contactref element="EXT" pad="13"/>
+<contactref element="JP1" pad="13"/>
 <wire x1="13.4112" y1="49.53" x2="12.954" y2="49.53" width="0.2032" layer="1"/>
 <wire x1="12.954" y1="49.53" x2="12.6492" y2="49.8348" width="0.2032" layer="1"/>
 <wire x1="12.6492" y1="49.8348" x2="12.6492" y2="50.9016" width="0.2032" layer="1"/>
@@ -4241,7 +4241,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="SKW_SPI_CLK">
 <contactref element="SKW" pad="30"/>
-<contactref element="EXT" pad="15"/>
+<contactref element="JP1" pad="15"/>
 <wire x1="14.0208" y1="52.7304" x2="14.0208" y2="51.054" width="0.2032" layer="1"/>
 <wire x1="9.6012" y1="52.7304" x2="14.0208" y2="52.7304" width="0.2032" layer="1"/>
 <wire x1="9.7536" y1="52.7304" x2="9.6012" y2="52.7304" width="0.2032" layer="16"/>
@@ -4258,7 +4258,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="SKW_SPI_MISO">
 <contactref element="SKW" pad="28"/>
-<contactref element="EXT" pad="11"/>
+<contactref element="JP1" pad="11"/>
 <wire x1="14.1732" y1="53.34" x2="14.9352" y2="53.34" width="0.2032" layer="1"/>
 <wire x1="14.9352" y1="53.34" x2="15.24" y2="53.0352" width="0.2032" layer="1"/>
 <wire x1="15.24" y1="53.0352" x2="15.24" y2="51.054" width="0.2032" layer="1"/>
@@ -4272,7 +4272,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="I2S_MICIN">
 <contactref element="SKW" pad="7"/>
-<contactref element="EXT" pad="3"/>
+<contactref element="JP1" pad="3"/>
 <wire x1="27.2796" y1="49.3776" x2="27.5844" y2="49.3776" width="0.2032" layer="1"/>
 <wire x1="27.5844" y1="49.3776" x2="27.8892" y2="49.0728" width="0.2032" layer="1"/>
 <wire x1="27.8892" y1="49.0728" x2="27.8892" y2="47.7012" width="0.2032" layer="1"/>
@@ -4318,7 +4318,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="LED_C">
 <contactref element="R13" pad="1"/>
-<contactref element="EXT" pad="1"/>
+<contactref element="JP1" pad="1"/>
 <wire x1="60.0456" y1="65.0748" x2="64.9224" y2="65.0748" width="0.2032" layer="1"/>
 <wire x1="58.0644" y1="63.0936" x2="60.0456" y2="65.0748" width="0.2032" layer="1"/>
 <wire x1="28.8036" y1="63.0936" x2="58.0644" y2="63.0936" width="0.2032" layer="1"/>
@@ -4345,7 +4345,7 @@ design rules under a new name.</description>
 <via x="19.6596" y="63.5508" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="LED_D">
-<contactref element="EXT" pad="4"/>
+<contactref element="JP1" pad="4"/>
 <contactref element="R20" pad="1"/>
 <wire x1="71.0184" y1="67.056" x2="72.6948" y2="67.056" width="0.2032" layer="1"/>
 <wire x1="70.5612" y1="67.5132" x2="71.0184" y2="67.056" width="0.2032" layer="16"/>
@@ -4550,7 +4550,7 @@ design rules under a new name.</description>
 <signal name="SKW_UART_TXD">
 <contactref element="SERIAL" pad="3"/>
 <contactref element="SKW" pad="38"/>
-<contactref element="EXT" pad="12"/>
+<contactref element="JP1" pad="12"/>
 <wire x1="8.8392" y1="53.4924" x2="8.8392" y2="51.054" width="0.2032" layer="1"/>
 <wire x1="12.4968" y1="53.4924" x2="8.8392" y2="53.4924" width="0.2032" layer="1"/>
 <wire x1="12.6492" y1="53.34" x2="12.4968" y2="53.4924" width="0.2032" layer="1"/>
@@ -4576,7 +4576,7 @@ design rules under a new name.</description>
 <signal name="SKW_UART_RXD">
 <contactref element="SERIAL" pad="2"/>
 <contactref element="SKW" pad="37"/>
-<contactref element="EXT" pad="10"/>
+<contactref element="JP1" pad="10"/>
 <wire x1="8.8392" y1="49.3776" x2="8.8392" y2="47.7012" width="0.2032" layer="1"/>
 <wire x1="8.6868" y1="49.53" x2="8.8392" y2="49.3776" width="0.2032" layer="16"/>
 <wire x1="8.6868" y1="60.96" x2="8.6868" y2="55.7784" width="0.2032" layer="16"/>

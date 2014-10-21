@@ -21442,10 +21442,6 @@ Source: http://www.taiwansemi.com/TSCbig5/ezcatfiles/cust/img/img/db101g.pdf</de
 <smd name="AC1" x="-2.55" y="4.5" dx="1.7" dy="1.9" layer="1" rot="R180"/>
 <text x="-4.445" y="-3.175" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.175" y="-0.635" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-3.2" y1="-5.1" x2="-1.9" y2="-3.2" layer="51"/>
-<rectangle x1="1.9" y1="-5.1" x2="3.2" y2="-3.2" layer="51"/>
-<rectangle x1="1.9" y1="3.2" x2="3.2" y2="5.1" layer="51" rot="R180"/>
-<rectangle x1="-3.2" y1="3.2" x2="-1.9" y2="5.1" layer="51" rot="R180"/>
 </package>
 <package name="DB">
 <description>&lt;b&gt;Single Phase 1.0 AMP Glass Passivated Bridge Rectifier&lt;/b&gt;&lt;p&gt;
@@ -23047,15 +23043,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </classes>
 <parts>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C29" library="BaseApp" deviceset="CAPACITOR" device=""/>
+<part name="C29" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1uF"/>
 <part name="MCP1826" library="BaseApp" deviceset="MCP1825T" device="" value="mcp1826"/>
 <part name="GND26" library="SparkFun" deviceset="GND" device=""/>
 <part name="R22" library="BaseApp" deviceset="RESISTOR" device="" value="10K"/>
-<part name="C13" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1uf"/>
+<part name="C13" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1uF"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="USB" device="-MICROB"/>
 <part name="C7" library="adafruit" deviceset="CPOL-US" device="E5-10.5" value="220uF"/>
 <part name="SKW" library="BaseApp" deviceset="SKW71" device="-" value="SKW71-"/>
-<part name="C62" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1u"/>
+<part name="C62" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1uF"/>
 <part name="GND1" library="BaseApp" deviceset="GND" device=""/>
 <part name="GND4" library="BaseApp" deviceset="GND" device=""/>
 <part name="GND5" library="BaseApp" deviceset="GND" device=""/>
@@ -23063,7 +23059,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND7" library="BaseApp" deviceset="GND" device=""/>
 <part name="GND47" library="BaseApp" deviceset="GND" device=""/>
 <part name="GND48" library="BaseApp" deviceset="GND" device=""/>
-<part name="C89" library="BaseApp" deviceset="CAPACITOR" device="" value="1uf"/>
+<part name="C89" library="BaseApp" deviceset="CAPACITOR" device="" value="1uF"/>
 <part name="U$27" library="BaseApp" deviceset="VCC" device="" value="+2v"/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="CN1" library="adafruit" deviceset="DCBARREL" device="PTH"/>
@@ -23076,7 +23072,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="D6" library="SparkFun-DiscreteSemi" deviceset="B340A" device="" value="BA340A"/>
 <part name="R3" library="BaseApp" deviceset="RESISTOR" device="" value="1k"/>
 <part name="R2" library="BaseApp" deviceset="RESISTOR" device="" value="10k"/>
-<part name="C8" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1uf"/>
+<part name="C8" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1uF"/>
 <part name="USB1" library="schematic" deviceset="USB_SHIELD" device="USB_A_VERTICAL"/>
 <part name="PTCTN" library="schematic" deviceset="PUSBMXX4-TL" device=""/>
 <part name="L3" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603"/>
@@ -23130,8 +23126,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$2" library="BaseApp" deviceset="VCC" device="" value="+2v"/>
 <part name="R42" library="BaseApp" deviceset="RESISTOR" device="" value="75R"/>
 <part name="R43" library="BaseApp" deviceset="RESISTOR" device="" value="75R"/>
-<part name="C65" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1uf"/>
-<part name="C66" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1uf"/>
+<part name="C65" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1uF"/>
+<part name="C66" library="BaseApp" deviceset="CAPACITOR" device="" value="0.1uF"/>
 <part name="GND52" library="BaseApp" deviceset="GND" device=""/>
 <part name="U$21" library="BaseApp" deviceset="VCC" device="" value="+2v"/>
 <part name="U$22" library="schematic" deviceset="HR601680" device=""/>

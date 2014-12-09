@@ -1,0 +1,13 @@
+﻿
+Recommended actions:
+
+     Try to start from different pair of surfaces. If necessary,
+     try to create feature as "Unattached", and complete it using quilts,
+     or try changing the dimensions.
+Which reference is invalid?
+   #INVESTIGATE, #SHOW REF
+
+
+Redefine or reroute the feature references.
+   #QUICK FIX, #REDEFINE/#REROUTE
+Use #INVESTIGATE, #FAILED GEOM for additional information.

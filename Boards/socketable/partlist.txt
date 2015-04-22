@@ -1,0 +1,102 @@
+Partlist
+
+Exported from schematic.sch at 2/14/2015 1:35:12 PM
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value                    Device                   Package            Library               Sheet
+
++2V      TPB2,54                  TPB2,54                  B2,54              testpad               1
+B1       DBLS201G                 DBLS201G                 DBS                rectifier             1
+C1       0.1uF, 50V               CAPACITOR                C0603              BaseApp               1
+C2       470uF, 25V               CPOL-EUE3.5-10           E3,5-10            resistor              1
+C3       220uF                    CPOL-USE3.5-10           E3,5-10            schematic             1
+C4       220uF                    CPOL-USE5-10.5           E5-10,5            schematic             1
+C5       0.1uF                    CAPACITOR                C0603              BaseApp               1
+C7       220uF                    CPOL-USE5-10.5           E5-10,5            adafruit              1
+C8       0.1uF                    CAPACITOR                C0603              BaseApp               1
+C9       0.1uF, 50V               CAPACITOR                C0603              BaseApp               1
+C10      0.1uF, 50V               CAPACITOR                C0603              BaseApp               1
+C11      0.1uF, 50V               CAPACITOR                C0603              BaseApp               1
+C12      1nF,2kV                  CAPACITOR                C0603              BaseApp               1
+C13      0.1uF                    CAPACITOR                C0603              BaseApp               1
+C14      56pF                     CAPACITOR                C0603              BaseApp               1
+C22      10nF                     CAPACITOR                C0603              BaseApp               1
+C24      0.1uF                    CAPACITOR                C0603              BaseApp               1
+C29      0.1uF                    CAPACITOR                C0603              BaseApp               1
+C62      0.1uF                    CAPACITOR                C0603              BaseApp               1
+C65      0.1uF                    CAPACITOR                C0603              BaseApp               1
+C66      0.1uF                    CAPACITOR                C0603              BaseApp               1
+C89      1uF                      CAPACITOR                C0603              BaseApp               1
+CN1                               DCBARRELPTH              DCJACK_2MM_PTH     adafruit              1
+D3       DIODE-SCHOTTKY_          DIODE-SCHOTTKY_          SMA-DIODE          schematic             1
+D4       BA340A                   B340A                    SMA-DIODE          SparkFun-DiscreteSemi 1
+D5       BA340A                   B340A                    SMA-DIODE          SparkFun-DiscreteSemi 1
+D6       BA340A                   B340A                    SMA-DIODE          SparkFun-DiscreteSemi 1
+DL1                               DUOLED-1X2               DUOLED-C-0603      BaseApp               1
+DL2                               DUOLED-1X2               DUOLED-C-0603      BaseApp               1
+DL3                               DUOLED-1X2               DUOLED-C-0603      BaseApp               1
+DL4                               DUOLED-1X2               DUOLED-C-0603      BaseApp               1
+GND      TPB2,54                  TPB2,54                  B2,54              testpad               1
+JP1                               PINHD-2X8                2X08               pinhead               1
+JP2                               PINHD-2X5                2X05               pinhead               1
+JP4      USB-MICROB               USB-MICROB               USB-MICROB         SparkFun-Connectors   1
+L        6.8uH 0302               INDUCTORBOURNS_SRN6045   SRN6045            SparkFun-Passives     1
+L3                                INDUCTOR0603             0603               SparkFun-Passives     1
+LAN      RJ45-8                   RJ45-8                   RJHSE-5080-ND      schematic             1
+MCP1826  mcp1826                  MCP1825T                 SOT223-5           BaseApp               1
+PAS_VDC  TPB2,54                  TPB2,54                  B2,54              testpad               1
+PD_VDC   TPB2,54                  TPB2,54                  B2,54              testpad               1
+PTCTN    PUSBMXX4-TL              PUSBMXX4-TL              PUSBMXX4-TL        schematic             1
+R1       1k                       RESISTOR                 R0603              BaseApp               1
+R2       10k                      RESISTOR                 R0603              BaseApp               1
+R3       1k                       RESISTOR                 R0603              BaseApp               1
+R4       1k                       RESISTOR                 R0603              BaseApp               1
+R5                                RESISTOR                 R0603              BaseApp               1
+R6                                RESISTOR                 R0603              BaseApp               1
+R7                                RESISTOR                 R0603              BaseApp               1
+R8       75R                      RESISTOR                 R0603              BaseApp               1
+R9       91k                      RESISTOR                 R0603              BaseApp               1
+R10                               RESISTOR                 R0603              BaseApp               1
+R11                               RESISTOR                 R0603              BaseApp               1
+R12                               RESISTOR                 R0603              BaseApp               1
+R13                               RESISTOR                 R0603              BaseApp               1
+R14      75R                      RESISTOR                 R0603              BaseApp               1
+R15      75R                      RESISTOR                 R0603              BaseApp               1
+R16      75R                      RESISTOR                 R0603              BaseApp               1
+R17      22                       RESISTOR                 R0603              BaseApp               1
+R18      22                       RESISTOR                 R0603              BaseApp               1
+R20                               RESISTOR                 R0603              BaseApp               1
+R22      10K                      RESISTOR                 R0603              BaseApp               1
+R23      20k                      RESISTOR                 R0603              BaseApp               1
+R27                               RESISTOR                 R0603              BaseApp               1
+R28      100k                     RESISTOR                 R0603              BaseApp               1
+R29      3k                       RESISTOR                 R0603              BaseApp               1
+R42      75R                      RESISTOR                 R0603              BaseApp               1
+R43      75R                      RESISTOR                 R0603              BaseApp               1
+S2                                10-XX                    B3F-10XX           switch-omron          1
+SERIAL                            PINHD-1X4                1X04               pinhead               1
+SKW      SKW71-                   SKW71-                   SKW71-SMT          BaseApp               1
+SMA      RF-SMA                   RF-SMA                   BU-SMA-H           BaseApp               1
+SP1      TPB2,54                  TPB2,54                  B2,54              testpad               1
+SP2      TPB2,54                  TPB2,54                  B2,54              testpad               1
+TP1      TPB2,54                  TPB2,54                  B2,54              testpad               1
+TP2      TPB2,54                  TPB2,54                  B2,54              testpad               1
+TP3      TPB2,54                  TPB2,54                  B2,54              testpad               1
+TP4      TPB2,54                  TPB2,54                  B2,54              testpad               1
+U$1      ISOLATION_DIODE-TT8U1CT  ISOLATION_DIODE-TT8U1CT  8-TSST             BaseApp               1
+U$5      SKY87608                 SKY87608                 8PIN-SOP-8L-EP     schematic             1
+U$8      21000MPOE                21000MPOE                21000MPOE          schematic             1
+U$22     HR601680                 HR601680                 SOIC-16            schematic             1
+U$23     HR601680                 HR601680                 SOIC-16            schematic             1
+UFL      UFL                      UFL                      UFL                BaseApp               1
+USB1     USB_SHIELDUSB_A_VERTICAL USB_SHIELDUSB_A_VERTICAL USB_A_VERTICAL_PTH schematic             1
+VBUS     TPB2,54                  TPB2,54                  B2,54              testpad               1
+VDD      TPB2,54                  TPB2,54                  B2,54              testpad               1
+VIN      TPB2,54                  TPB2,54                  B2,54              testpad               1
+VSOURCE  TPB2,54                  TPB2,54                  B2,54              testpad               1
+VVCC     TPB2,54                  TPB2,54                  B2,54              testpad               1
+WAN      RJ45-8                   RJ45-8                   RJHSE-5080-ND      schematic             1
+WPS      31-XX-SMD                31-XX-SMD                BF3-31XX_SMD_PAD   schematic             1
